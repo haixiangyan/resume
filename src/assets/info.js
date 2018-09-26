@@ -56,6 +56,7 @@ export default {
     projects: [
         {
             left: 'Wheel UI',
+            link: 'https://haixiang6123.github.io/wheel-ui/',
             right: 'July 2018',
             children: [
                 {left: 'Developed a UI library with *Vue.js*. Utilized a CSS pre-processor *SCSS* to write widgets styles'},
@@ -67,6 +68,7 @@ export default {
         },
         {
             left: 'Guitar Tabs Editor',
+            link: 'https://haixiang6123.github.io/guitar-editor/#/',
             right: 'Mar 2018',
             children: [
                 {left: 'Implemented a guitar tabs editor with *React.js* and *svg* technology'},
@@ -78,6 +80,7 @@ export default {
         },
         {
             left: 'Pikachu',
+            link: 'https://haixiang6123.github.io/pikachu/',
             right: 'Feb 2018',
             children: [
                 {left: 'Used *jQuery*, *HTML5* and *CSS3* to draw a Pikachu on a web page'},
@@ -100,6 +103,7 @@ export default {
     interns: [
         {
             left: 'Neusoft',
+            link: 'https://haixiang6123.github.io/yan-xuan/#/home/recommend',
             right: 'May 2017 - Sept 2017',
             children: [
                 {left: 'Front-end development'},

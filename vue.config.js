@@ -1,3 +1,5 @@
 module.exports = {
-    baseUrl: '/resume/'
+    baseUrl: process.env.NODE_ENV === 'production'
+        ? '/resume/'
+        : '/'
 };

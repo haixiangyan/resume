@@ -2,7 +2,10 @@
     <ul>
         <li v-for="item in source">
             <p class="item">
-                <span class="left">{{item.left}}</span>
+                <span class="left">
+                    {{item.left}}
+                    <a class="link" v-if="item.link" :href="item.link"> ({{item.link}})</a>
+                </span>
                 <span class="right">{{item.right}}</span>
             </p>
             <ul>
@@ -43,6 +46,13 @@
     .item {
         margin-top: 3px;
         font-weight: bold;
+        .link {
+            color: #42b983;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 
     .children-item {
