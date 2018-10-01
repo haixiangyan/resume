@@ -9,6 +9,9 @@
             <p class="linkedin">
                 LinkedIn: {{linked}}
             </p>
+			<p class="github">
+				Github: {{github}}
+			</p>
         </div>
 
         <div class="edu">
@@ -45,7 +48,7 @@
     export default {
         name: 'Home',
         data() {
-            return info;
+            return info
         },
         components: {
             List,

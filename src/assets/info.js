@@ -3,6 +3,7 @@ export default {
     tel: '+19493467358',
     email: 'haixiany@uci.edus',
     linked: 'https://www.linkedin.com/in/yan-haixiang-0b9744150/',
+	github: 'https://github.com/Haixiang6123',
     edus: [
         {
             left: 'University of California, Irvine',
