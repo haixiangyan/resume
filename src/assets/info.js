@@ -60,7 +60,7 @@ export default {
             right: 'July 2018',
             children: [
                 {left: 'Developed a UI widgets library with *Vue.js*, such as Grid system, Toast, Carousel, Cascader, Tabs and etc.'},
-                {left: 'Utilized a CSS pre-processor *SCSS* to write widgets styles, and encapsulated some Mixins and Inheritance for reusing styles'},
+                {left: 'Utilized a CSS pre-processor *SCSS* to write widgets styles, and encapsulated some Mixins for reusing styles'},
                 {left: 'Wrote unit tests with assertion and stubbing frameworks like *Chai*, *Sinon* and *Mocha*. Combined *Travis CI* and *Karma* to do integrating testing'},
                 {left: 'Set up documentation website with *vuepress* and deployed it on github'}
             ]
