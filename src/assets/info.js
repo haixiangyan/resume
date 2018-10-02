@@ -25,7 +25,6 @@ export default {
                 },
                 {
                     left: 'Honors: Third-class Scholarship (15%, Northeastern University)',
-                    right: '09/2015,09/2016,09/2017,04/2018'
                 }
             ]
         },
@@ -60,9 +59,8 @@ export default {
             link: 'https://haixiang6123.github.io/wheel-ui/',
             right: 'July 2018',
             children: [
-                {left: 'Developed a UI library with *Vue.js*. Utilized a CSS pre-processor *SCSS* to write widgets styles'},
-                {left: 'Some widgets are well-developed, such as Gird system, alert (Toast, Popover), displaying data (Carousel, Cascader) and navigation (Nav, Tabs)'},
-                {left: 'Applied some Vue.js features, such as *Enter/Leave & List transition*, *Vue plugin*, *Vue directives*, *Event Bus*  to improve UI and usability'},
+                {left: 'Developed a UI widgets library with *Vue.js*, such as Grid system, Toast, Carousel, Cascader, Tabs and etc.'},
+                {left: 'Utilized a CSS pre-processor *SCSS* to write widgets styles, and encapsulated some Mixins and Inheritance for reusing styles'},
                 {left: 'Wrote unit tests with assertion and stubbing frameworks like *Chai*, *Sinon* and *Mocha*. Combined *Travis CI* and *Karma* to do integrating testing'},
                 {left: 'Set up documentation website with *vuepress* and deployed it on github'}
             ]
@@ -75,7 +73,7 @@ export default {
                 {left: 'Implemented a guitar tabs editor with *React.js* and *svg* technology'},
                 {left: 'Inspired by markdown and laTex, it renders formatted plain texts to React components to display a guitar tab'},
                 {left: 'Managed edit page and preview page with *React Router*, so that guitar tabs data can be shared to both pages'},
-                {left: 'Set up text and chord modes for showing chords with plain text or svg'},
+                {left: 'Assigned text mode and chord mode for showing chords with plain texts or chord svgs above each lyrics'},
                 {left: 'Published *Chord* component and *Lyrics* Component to npm library'}
             ]
         },
@@ -97,7 +95,7 @@ export default {
                 {left: 'Set up a router system with user authentication and route guards using *React Router*'},
                 {left: 'Utilized Google *reCAPTCHA* to prevent from robot attacks'},
                 {left: 'Tested system performance with *Tomcat apache JMeter*'},
-                {left: 'Built an *Android* app as mobile client which can access same APIs developed with *Java Servlet*'}
+                {left: 'Built an *Android* app as mobile client which access same APIs developed with *Java Servlet*'}
             ]
         },
     ],
@@ -109,7 +107,8 @@ export default {
             children: [
                 {left: 'Front-end development'},
                 {left: 'Developed basic UI widgets and web pages for an online-shopping web app (Mobile) with *Vue.js*'},
-                {left: 'Wrote test codes with *Mock.js* to test HTTP requests'},
+                {left: 'Used *Vue Router* to build the router system and organized global data with *Vuex*'},
+                {left: 'Wrote test codes with *Mock.js* to test response data of back end APIs'},
                 {left: 'Helped to implement shopping cart module which includes adding default address, modifying cart items and developed a Cascader widget'},
             ]
         }

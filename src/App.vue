@@ -32,6 +32,12 @@
     h1, h2, h3, h4, h5, h6, p, ul {
         margin: 0;
     }
+    h4 {
+        margin-top: 3px;
+    }
+    hr {
+        margin: 1px 0;
+    }
     ul {
         padding-inline-start: 20px;
     }
