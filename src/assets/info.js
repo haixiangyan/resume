@@ -2,7 +2,7 @@ export default {
     name: 'HAIXIANG YAN',
     tel: '+19493467358',
     email: 'haixiany@uci.edu',
-    linked: 'https://www.linkedin.com/in/yan-haixiang-0b9744150/',
+    linkedin: 'https://www.linkedin.com/in/yan-haixiang-0b9744150/',
 	github: 'https://github.com/Haixiang6123',
     edus: [
         {
@@ -10,7 +10,7 @@ export default {
             right: 'Irvine, CA',
             children: [
                 {
-                    left: 'Master of Networked System',
+                    left: 'M.S. Networked System',
                     right: 'Expected Graduation: Jun 2020'
                 }
             ]
@@ -20,7 +20,7 @@ export default {
             right: 'Shenyang, China',
             children: [
                 {
-                    left: 'Bachelor of Engineering in Software Engineering (GPA: 86/100)',
+                    left: 'B.S. Engineering in Software Engineering (GPA: 86/100)',
                     right: 'Graduation: Jun 2018'
                 },
                 {

@@ -7,10 +7,10 @@
                 <span class="email">E-mail: {{email}}</span>
             </p>
             <p class="linkedin">
-                LinkedIn: {{linked}}
+                LinkedIn: <a :href="linkedin">{{linkedin}}</a>
             </p>
 			<p class="github">
-				Github: {{github}}
+				Github: <a :href="github">{{github}}</a>
 			</p>
         </div>
 
@@ -75,5 +75,6 @@
 
     a {
         color: #42b983;
+        text-decoration: none;
     }
 </style>
