@@ -1,7 +1,7 @@
 export default {
     name: 'Haixiang Yan',
-    tel: '+19492413576',
-    email: 'haixiany@uci.edu',
+    tel: '15602564425',
+    email: 'xxx@uci.edu',
     linkedin: 'https://www.linkedin.com/in/yan-haixiang-0b9744150/',
 	github: 'https://github.com/Haixiang6123',
     edus: [
@@ -98,19 +98,16 @@ export default {
                 {left: 'Built an *Android* app as mobile client which access same APIs developed with *Java Servlet*'}
             ]
         },
-    ],
-    interns: [
         {
-            left: 'NEUSoft',
+            left: 'Yan Xuan Online Shopping Web APP',
             link: 'https://haixiang6123.github.io/yan-xuan/#/home/recommend',
-            right: 'May 2017 - Sept 2017',
+            right: 'May 2017',
             children: [
-                {left: 'Frontend development'},
                 {left: 'Developed basic UI widgets and web pages for an online-shopping web app (Mobile) with *Vue.js*'},
                 {left: 'Used *Vue Router* to build the router system and organized global data with *Vuex*'},
                 {left: 'Wrote test codes with *Mock.js* to test response data of backend APIs'},
-                {left: 'Helped to implement shopping cart module which includes adding default address, modifying cart items and developing an address Cascader widget'},
+                {left: 'Implemented shopping cart module which includes adding default address, modifying cart items and developing an address Cascader widget'},
             ]
         }
-    ]
+    ],
 }

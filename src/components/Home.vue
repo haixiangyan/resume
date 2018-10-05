@@ -32,7 +32,7 @@
             <List :source="projects"></List>
         </div>
 
-        <div class="interns">
+        <div v-if="interns" class="interns">
             <h4>INTERNSHIP</h4>
             <hr>
             <List :source="interns"></List>
@@ -44,11 +44,12 @@
     import List from './List';
     import Skills from './Skills';
     import info from '../assets/info';
+    import allProjects from '../assets/allProjects';
 
     export default {
         name: 'Home',
         data() {
-            return info
+            return allProjects
         },
         components: {
             List,
