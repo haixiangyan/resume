@@ -26,17 +26,18 @@
             <Skills :skills="skills"></Skills>
         </div>
 
+        <div v-if="interns" class="interns">
+            <h4>INTERNSHIP</h4>
+            <hr>
+            <List :source="interns"></List>
+        </div>
+
         <div class="projects">
             <h4>PROJECTS</h4>
             <hr>
             <List :source="projects"></List>
         </div>
 
-        <div v-if="interns" class="interns">
-            <h4>INTERNSHIP</h4>
-            <hr>
-            <List :source="interns"></List>
-        </div>
     </div>
 </template>
 
@@ -49,7 +50,7 @@
     export default {
         name: 'Home',
         data() {
-            return allProjects
+            return info 
         },
         components: {
             List,
