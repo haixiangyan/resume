@@ -72,8 +72,8 @@ export default {
             right: 'Mar 2018',
             children: [
                 {left: 'Developed a guitar tabs editor with *React.js* to render fomatted plain text to React components to display a guitar tab'},
+                {left: "Drew guitar chords by rendering data to *SVG*s to make sure each tab is well-formed like Markdown article"},
                 {left: 'Implemented text mode and chord mode to show chords with plain texts or svgs above each lyrics'},
-                {left: 'Drew guitar chords by rendering data to *SVG* image'},
                 {left: 'Published react component Chord and Lyrics on npm'}
             ]
         },
