@@ -6,12 +6,12 @@
                 <span class="tel">Tel: {{tel}}</span>
                 <span class="email">E-mail: {{email}}</span>
             </p>
-            <p class="linkedin">
-                LinkedIn: <a :href="linkedin">{{linkedin}}</a>
-            </p>
 			<p class="github">
 				Github: <a :href="github">{{github}}</a>
 			</p>
+            <p class="linkedin">
+                LinkedIn: <a :href="linkedin">{{linkedin}}</a>
+            </p>
         </div>
 
         <div class="edu">
