@@ -108,11 +108,11 @@ export default {
             left: 'Neusoft (Frontend Developer)',
             right: 'May 2017 - Sept 2017',
             children: [
-                {left: 'Cooperated teams to Developed UI components for an online shopping web app (Mobile) with *Vue.js* and evaluated the designs of each component with UI designer'},
-                {left: 'Implemented login module by building router guard by using *Vue Router* to redirect urls when users logged out'},
+                {left: 'Cooperated teams to Developed UI components for an online shopping web app (Mobile) with *Vue.js* and evaluated the designs of components with UI designers'},
                 {left: 'Reduced 48% component codes by introducing *Vuex* to manage data flow between components'},
-                {left: 'Optimized address selector by designing an Cascader component to adapt mobile client'},
-                {left: 'Developed scripts with *Mock.js* to test backend APIs automatically'},
+                {left: "Developed a privilege management system by using *Vue Router* to authorize different level roles to ussers according to their roles"},
+                {left: 'Beautified and rebuilt Vue comonents with *Animate.css* and *Element UI*'},
+                {left: 'Automated backend APIs and Http requests testing by writing scripts with *Mock.js*'},
             ]
         }
     ]
