@@ -45,10 +45,14 @@ export default {
     skills: {
         langs: ['JavaScript', 'Java', 'Python', 'C', 'C++'],
         techs: [
-            'Vue.js',
             'React.js',
-            'Test tools (Mocha, Sinon, Chai, Karma, Travis CI)',
-            'Node.js',
+            'Vue.js',
+            'ES6',
+            'jQuery',
+            'SCSS',
+            'Express.js',
+            'Flask',
+            'React Native',
             'Android'
         ],
         dbs: ['MySQL', 'MongoDB', 'Oracle (PL/SQL)']
@@ -59,11 +63,11 @@ export default {
             link: 'https://haixiang6123.github.io/wheel-ui/',
             right: 'July 2018',
             children: [
-                {left: 'Developed a UI widgets library with *Vue.js*, such as Grid system, Toast, Carousel, Cascader, Tabs and etc.'},
-                {left: 'Constructed widgets styles by using *SCSS* to encasulate some Mixins for reusing styles'},
+                {left: 'Developed a UI widgets library with *Vue.js* and published on npm to let developers beatify their website'},
+                {left: 'Upgraded component styles codes by using *SCSS* to encasulate some mixins for reusing styles'},
                 {left: 'Wrote unit tests with assertion and stubbing frameworks like *Chai*, *Sinon* and *Mocha*'},
-                {left: 'Combined *Travis CI* and *Karma* to do integration testing'},
-                {left: 'Developed official documentation website with *VuePress* and launched it on Github'},
+                {left: 'Imroved Rubustness by combining *Travis CI* and *Karma* to do integration testing'},
+                {left: 'Developed official documentation website with *VuePress* to demonstrate details of APIs for developers'},
             ]
         },
         {
@@ -71,10 +75,11 @@ export default {
             link: 'https://haixiang6123.github.io/guitar-editor/#/',
             right: 'Mar 2018',
             children: [
-                {left: 'Developed a guitar tabs editor with *React.js* to render fomatted plain text to React components to display a guitar tab'},
-                {left: "Drew guitar chords by rendering data to *SVG*s to make sure each tab is well-formed like Markdown article"},
-                {left: 'Implemented text mode and chord mode to show chords with plain texts or svgs above each lyrics'},
-                {left: 'Published react component Chord and Lyrics on npm'}
+                {left: 'Developed a guitar tabs editor with *React.js* for users to develop guitar tabs by writing formatted texts'},
+                {left: "Rendered Markdown/LaTex texts to a guitar tab to reduce user's learning costs"},
+                {left: 'Formatted guitar tabs size by using *SVG* to display guitar chords'},
+                {left: 'Implemented 2 chord displaying modes so that user can choose to show chords above lyrics in text or SVG'},
+                {left: 'Published component Chord to let developers customize their own chords and use standard chords with React.js'}
             ]
         },
         {
@@ -82,11 +87,10 @@ export default {
             right: 'Jan 2018',
             children: [
                 {left: 'Built the movie gallery system with *React.js* for users to view, search and purchase moives'},
+                {left: 'Improved website security by setting toute guards with *React Router* and detecting robot with Google *reCAPTCHA*'},
                 {left: 'Controlled movie data, search results and shopping carts with *Redux* and shared them to common components'},
-                {left: 'Set up a router system with user authentication and route guards using *React Router* and strengthened user authentication by using Google *reCAPTCHA*'},
-                {left: 'Tested system performance with *Tomcat apache JMeter*'},
-                {left: 'Deployed the system on AWS and configurated load balancing by writing shell scripts on *Linux*'},
-                {left: 'Built an *Android* app as mobile client which access same APIs developed with *Java Servlet*'}
+                {left: 'Strengthed website performance by launching it on AWS with load balancing support and analyzing its performance with *JMeter*'},
+                {left: 'Accessing same APIs developed with *Servlet*, the *Android* app was built to make it more flexible and scalable'},
             ]
         },
         {
@@ -94,8 +98,8 @@ export default {
             link: 'https://haixiang6123.github.io/pikachu/',
             right: 'Feb 2018',
             children: [
-                {left: 'Used *jQuery*, *HTML5* and *CSS3* to draw a Pikachu on a web page'},
-                {left: 'Drew a Pikachu dynamically while writing CSS codes'}
+                {left: 'Utlized *jQuery*, *HTML5* and *CSS3* to draw a Pikachu on a web page'},
+                {left: 'Drawing a Pikachu dynamically while writing CSS codes line by line'}
             ]
         },
     ],
@@ -106,8 +110,8 @@ export default {
             children: [
                 {left: 'Cooperated teams to Developed UI components for an online shopping web app (Mobile) with *Vue.js* and evaluated the designs of each component with UI designer'},
                 {left: 'Implemented login module by building router guard by using *Vue Router* to redirect urls when users logged out'},
-                {left: 'Managed goods data received when components mounted with *Vuex* to keep one-way data flow'},
-                {left: 'Finished shopping cart module which includes modifying cart items and developing address Cascader widget to add addresses'},
+                {left: 'Reduced 48% component codes by introducing *Vuex* to manage data flow between components'},
+                {left: 'Optimized address selector by designing an Cascader component to adapt mobile client'},
                 {left: 'Developed scripts with *Mock.js* to test backend APIs automatically'},
             ]
         }
