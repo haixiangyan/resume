@@ -64,9 +64,9 @@ export default {
             right: 'July 2018',
             children: [
                 {left: 'Developed a UI widgets library with *Vue.js* and published on npm to let developers beatify their website'},
-                {left: 'Upgraded component styles codes by using *SCSS* to encasulate some mixins for reusing styles'},
+                {left: 'Upgraded component styles codes by using *SCSS* to encapsulate some Mixins for reusing styles'},
                 {left: 'Wrote unit tests with assertion and stubbing frameworks like *Chai*, *Sinon* and *Mocha*'},
-                {left: 'Imroved Rubustness by combining *Travis CI* and *Karma* to do integration testing'},
+                {left: 'Improved robustness by combining *Travis CI* and *Karma* to do integration testing'},
                 {left: 'Developed official documentation website with *VuePress* to demonstrate details of APIs for developers'},
             ]
         },
@@ -86,10 +86,10 @@ export default {
             left: 'Movie Gallery System',
             right: 'Jan 2018',
             children: [
-                {left: 'Built the movie gallery system with *React.js* for users to view, search and purchase moives'},
-                {left: 'Improved website security by setting toute guards with *React Router* and detecting robot with Google *reCAPTCHA*'},
+                {left: 'Built the movie gallery system with *React.js* for users to view, search and purchase movies'},
+                {left: 'Improved website security by setting route guards with *React Router* and detecting robot with Google *reCAPTCHA*'},
                 {left: 'Controlled movie data, search results and shopping carts with *Redux* and shared them to common components'},
-                {left: 'Strengthed website performance by launching it on AWS with load balancing support and analyzing its performance with *JMeter*'},
+                {left: 'Strengthened website performance by launching it on AWS with load balancing support and analyzing its performance with *JMeter*'},
                 {left: 'Accessing same APIs developed with *Servlet*, the *Android* app was built to make it more flexible and scalable'},
             ]
         },
@@ -98,7 +98,7 @@ export default {
             link: 'https://haixiang6123.github.io/pikachu/',
             right: 'Feb 2018',
             children: [
-                {left: 'Utlized *jQuery*, *HTML5* and *CSS3* to draw a Pikachu on a web page'},
+                {left: 'Utilized *jQuery*, *HTML5* and *CSS3* to draw a Pikachu on a web page'},
                 {left: 'Drawing a Pikachu dynamically while writing CSS codes line by line'}
             ]
         },
@@ -110,8 +110,8 @@ export default {
             children: [
                 {left: 'Cooperated teams to Developed UI components for an online shopping web app (Mobile) with *Vue.js* and evaluated the designs of components with UI designers'},
                 {left: 'Reduced 48% component codes by introducing *Vuex* to manage data flow between components'},
-                {left: "Developed a privilege management system by using *Vue Router* to authorize different level roles to ussers according to their roles"},
-                {left: 'Beautified and rebuilt Vue comonents with *Animate.css* and *Element UI*'},
+                {left: "Developed a privilege management system by using *Vue Router* to authorize different level roles to users according to their roles"},
+                {left: 'Beautified and rebuilt Vue components with *Animate.css* and *Element UI*'},
                 {left: 'Automated backend APIs and Http requests testing by writing scripts with *Mock.js*'},
             ]
         }
