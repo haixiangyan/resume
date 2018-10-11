@@ -36,8 +36,8 @@ export default {
         langs: ['JavaScript', 'Java', 'Python', 'C', 'C++'],
         frontend: ['React.js', 'Vue.js', 'jQuery', 'ES6', 'SCSS', 'CSS3'],
         backend: ['Express.js', 'Koa.js', 'Flask', 'MySQL', 'MongoDB', 'Oracle (PL/SQL)'],
+        test: ['Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'JMeter'],
         mobile: ['React Native', 'Android'],
-        dbs: ['MySQL', 'MongoDB', 'Oracle (PL/SQL)']
     },
     projects: [
         {

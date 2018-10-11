@@ -13,7 +13,7 @@
             <strong>Mobile: </strong>{{skills.mobile.join(', ')}}
         </li>
         <li>
-            <strong>Databases: </strong>{{skills.dbs.join(', ')}}
+            <strong>Test: </strong>{{skills.test.join(', ')}}
         </li>
     </ul>
 </template>
