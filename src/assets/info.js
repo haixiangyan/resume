@@ -90,9 +90,9 @@ export default {
             left: 'Neusoft (Title: Frontend Developer)',
             right: 'May 2017 - Sept 2017',
             children: [
-                {left: 'Collaborated teams to Developed UI components for an online shopping web app (Mobile) with Vue.js and evaluated the designs of components with UI designers'},
+                {left: 'Collaborated teams to Develop UI components for an online shopping web app (Mobile) with Vue.js and evaluated the designs of components with UI designers'},
                 {left: 'Reduced 48% component codes by introducing Vuex to manage data flow between components'},
-                {left: "Developed a privilege management system by using Vue Router to authorize different level roles to users according to their roles"},
+                {left: "Developed a privilege management system by using Vue Router to authorize different level privileges to users"},
                 {left: 'Beautified and rebuilt Vue components with Animate.css and Element UI'},
                 {left: 'Automated backend APIs and HTTP requests testing by writing scripts with Mock.js'},
             ]
