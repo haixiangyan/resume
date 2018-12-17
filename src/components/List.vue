@@ -31,7 +31,7 @@
         },
         methods: {
             renderLeft(left) {
-                return left.replace(/\*([\w.\s&()\/,]+)\*/g, '<strong>$1</strong>');
+                return left.replace(/\*([\w.\s&()\/,，、]+)\*/g, '<strong>$1</strong>');
             }
         }
     }

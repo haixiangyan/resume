@@ -1,19 +1,19 @@
 <template>
     <ul>
         <li>
-            <strong>Languages: </strong>{{skills.langs.join(', ')}}
+            <strong>编程语言: </strong>{{skills.langs.join(', ')}}
         </li>
         <li>
-            <strong>Frontend: </strong>{{skills.frontend.join(', ')}}
+            <strong>前端开发: </strong>{{skills.frontend.join(', ')}}
         </li>
         <li>
-            <strong>Backend: </strong>{{skills.backend.join(', ')}}
+            <strong>后端开发: </strong>{{skills.backend.join(', ')}}
         </li>
         <li>
-            <strong>Mobile: </strong>{{skills.mobile.join(', ')}}
+            <strong>移动端开发: </strong>{{skills.mobile.join(', ')}}
         </li>
         <li>
-            <strong>Test: </strong>{{skills.test.join(', ')}}
+            <strong>单元测试: </strong>{{skills.test.join(', ')}}
         </li>
     </ul>
 </template>

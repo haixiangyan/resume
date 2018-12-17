@@ -1,101 +1,100 @@
 export default {
-    name: 'Haixiang Yan',
-    tel: '+19492413576',
+    name: '严海翔',
+    tel: '15602564425',
     email: 'haixiany@uci.edu',
-    linkedin: 'https://www.linkedin.com/in/yan-haixiang-0b9744150/',
 	github: 'https://github.com/Haixiang6123',
+    jianshu: 'https://www.jianshu.com/u/0340be4082b5',
+    medium: 'https://medium.com/@haixiang6123',
     edus: [
         {
-            left: 'University of California, Irvine',
-            right: 'Irvine, CA',
+            left: '加州大学尔湾分校',
+            right: '美国加州',
             children: [
                 {
-                    left: 'M.S. Networked System',
-                    right: 'Jun 2020'
+                    left: '专业：计算机科学硕士',
+                    right: '2018年9月 - 2019年12月'
                 }
             ]
         },
         {
-            left: 'Northeastern University',
-            right: 'Shenyang, China',
+            left: '东北大学',
+            right: '沈阳',
             children: [
                 {
-                    left: 'B.S. Engineering in Software Engineering (GPA: 86/100)',
-                    right: 'Jun 2018'
+                    left: '专业：软件工程本科，GPA：3.6/5.0',
+                    right: '2014年10月 - 2018年6月'
                 },
                 {
-                    left: 'Honors: Third-class Scholarship (15%, Northeastern University)',
+                    left: '荣誉：3年三等奖学金，1年二等奖学金',
                 },
                 {
-                    left: 'Study abroad - UC Irvine (2017 - 2018)'
+                    left: '交换经历：在加州大学尔湾分校做交换生，GPA：3.8/4.0'
                 }
             ]
         },
     ],
     skills: {
         langs: ['JavaScript', 'Java', 'Python', 'C', 'C++'],
-        frontend: ['React.js', 'Vue.js', 'jQuery', 'ES6', 'SCSS', 'CSS3'],
+        frontend: ['React.js', 'Vue.js', 'jQuery', 'ES6', 'Sass', 'Webpack'],
         backend: ['Express.js', 'Koa.js', 'Flask', 'MySQL', 'MongoDB', 'Oracle (PL/SQL)'],
-        test: ['Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'JMeter'],
+        test: ['Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI'],
         mobile: ['React Native', 'Android'],
     },
     projects: [
         {
-            left: 'Wheel UI Widgets Library',
+            left: 'Chrome 翻译小助手',
+            link: 'https://github.com/Haixiang6123/translate-chr',
+            children: [
+                {left: '该翻译插件使用了 **Chrome Extension** 提供的开发插件 API 和谷歌提供的翻译 API'},
+                {left: '实现了6种语言的自由翻译，如英语，日语，法语等。通过使用 DOM API 在选中文本旁边生成译文面板'},
+                {left: '点击右键即可进行自动跳转并用百度对选中文本进行翻译'}
+            ]
+        },
+        {
+            left: '基于 Vue.js 的 UI 库',
             link: 'https://haixiang6123.github.io/wheel-ui/',
-            right: 'July 2018',
+            right: '2018年7月',
             children: [
-                {left: 'Developed a UI widgets library with Vue.js and published on npm to let developers beatify their website'},
-                {left: 'Upgraded component styles codes by using SCSS to encapsulate some Mixins for reusing styles'},
-                {left: 'Wrote unit tests with assertion and stubbing frameworks like Chai, Sinon and Mocha'},
-                {left: 'Improved robustness by combining Travis CI and Karma to do integration testing'},
-                {left: 'Deployed official documentation website with VuePress to demonstrate details of APIs for developers'},
+                {left: '基于 *Vue.js* 利用其特性，如 Vue 过度&动画，插槽，自定义插件开发的一套组件UI库，并最后发布发 npm 上'},
+                {left: '使用 CSS 预处理器 Sass 定制组件的样式，定义不同 Mixins 来封装样式来提高样式的重用度'},
+                {left: '使用 *Chai、Sinon、Mocha* 测试组件是否能处理边界情况，保证在所有情况下都能正常使用'},
+                {left: '配置 *Travis CI、Karma* 对每次 Git 的提交做集成测试，以提高 UI 库的健壮性'},
+                {left: '使用 VuePress 搭建 UI 库的官方开发文档，通过 Markdown 来编写 API 使用手册'},
             ]
         },
         {
-            left: 'Guitar Tabs Editor',
+            left: '吉他谱编辑器',
             link: 'https://haixiang6123.github.io/guitar-editor/#/',
-            right: 'Mar 2018',
+            right: '2018年5月',
             children: [
-                {left: 'Designed a guitar tabs editor with React.js for users to develop guitar tabs by writing formatted texts'},
-                {left: "Rendered Markdown/LaTex texts to a guitar tab to reduce user's learning costs"},
-                {left: 'Formatted guitar tabs size by using SVG to display guitar chords'},
-                {left: 'Implemented 2 chord displaying modes so that user can choose to show chords above lyrics in text or SVG'},
-                {left: 'Published component Chord to let developers customize their own chords and use standard chords with React.js'}
+                {left: '本项目是基于 *React.js* 开发的吉他谱在线编辑器，它能使作者通过书写规定格式的文本来创作吉他谱，并统一其编写的吉他谱'},
+                {left: '通过 react-chord-generator 和 react-lyrics 将类 Markdown/Latex 格式文本渲染为 HTML 样式'},
+                {left: '其中上述两个组件已经发布到 npm，开发人员可对其进行个性化的定制来实现其它的和弦图'},
+                {left: '使用 *SVG* 来渲染和弦图和六线谱图'},
+                {left: '实现两种查看和弦图的格式：文本模式和和弦图模式。前者展示吉他谱概况，后者详细显示具体和弦图'},
             ]
         },
         {
-            left: 'Movie Gallery System',
-            right: 'Jan 2018',
+            left: '电影购买系统（移动端）',
+            link: 'https://haixiang6123.github.io/yan-xuan/#/home/recommend',
+            right: '2018年1月',
             children: [
-                {left: 'Built the movie gallery system with React.js for users to view, search and purchase movies'},
-                {left: 'Improved website security by setting route guards with React Router and detecting robot with Google reCAPTCHA'},
-                {left: 'Controlled movie data, search results and shopping carts with Redux and shared them to common components'},
-                {left: 'Strengthened website performance by launching it on AWS with load balancing support and analyzing its performance with JMeter'},
-                {left: 'Accessing same APIs developed with Servlet, the Android app was built to make it more flexible and scalable'},
+                {left: '本项目是基于 React.js 开发的电影选购系统，主要实现多类型搜索功能，购物车，用户登录功能等'},
+                {left: '使用 *React Router* 搭建网站的路由系统，并在路由设置守卫来防止对管理页面的非法访问'},
+                {left: '使用 *Redux* 对全局数据进行管理，如搜索结果、用户购物车信息，将信息与相应组件共享'},
+                {left: '将网站发布至 AWS ，并为其配置负载均衡。将数据存放到 Master DB 和 slave DB 中来降低数据库的压力'},
+                {left: '使用 JAX-RS 配合 Servlet 的注解来设计 *RESTFul* 风格 API，替代传统的 SOAP 方案'}
             ]
         },
         {
-            left: 'Pikachu',
-            link: 'https://haixiang6123.github.io/pikachu/',
-            right: 'Feb 2018',
+            left: '仿网易严选商城',
+            right: '2017年8月',
             children: [
-                {left: 'Utilized jQuery, HTML5 and CSS3 to draw a Pikachu on a web page'},
-                {left: 'Drawing a Pikachu dynamically while writing CSS codes line by line'}
-            ]
-        },
-    ],
-    interns: [
-        {
-            left: 'Neusoft (Title: Frontend Developer)',
-            right: 'May 2017 - Sept 2017',
-            children: [
-                {left: 'Collaborated teams to develop UI components for an online shopping web app (Mobile) with Vue.js and evaluated the designs of components with UI designers'},
-                {left: 'Reduced 48% component codes by introducing Vuex to manage data flow between components'},
-                {left: "Developed a privilege management system by using Vue Router to authorize different level privileges to users"},
-                {left: 'Beautified and rebuilt Vue components with Animate.css and Element UI'},
-                {left: 'Automated backend APIs and HTTP requests testing by writing scripts with Mock.js'},
+                {left: '本项目基于 Vue.js 开发的仿网易严选商城（移动端），主要实现商品详情，商品分类，购买商品功能'},
+                {left: '使用 Vuex 管理组件共享的数据，同时使用 localStorage 来存放用户登录状态'},
+                {left: '利用 Vue Router 的导航守卫功能来实现权限系统，如普通用户不能访问管理员页面'},
+                {left: '使用 *Mock.js* 来为页面提供数据，并用来测试后端的 API'}
             ]
         }
-    ]
+    ],
 }

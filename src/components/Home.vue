@@ -3,37 +3,38 @@
         <div class="info">
             <h1 class="name">{{name}}</h1>
             <p>
-                <span class="tel">Tel: {{tel}}</span>
-                <span class="email">E-mail: {{email}}</span>
+                <span class="tel">{{tel}}</span>
+                <span class="email">{{email}}</span>
             </p>
-			<p class="github">
-				Github: <a :href="github">{{github}}</a>
-			</p>
-            <p class="linkedin">
-                LinkedIn: <a :href="linkedin">{{linkedin}}</a>
-            </p>
+            <div class="links">
+                Github <a :href="github">{{github}}</a>
+            </div>
+            <div class="blogs">
+                简书: <a :href="jianshu">{{jianshu}}</a>
+                Medium: <a :href="medium">{{medium}}</a>
+            </div>
         </div>
 
         <div class="edu">
-            <h4>EDUCATION</h4>
+            <h4>教育背景</h4>
             <hr>
             <List :source="edus"></List>
         </div>
 
         <div class="skills">
-            <h4>SKILLS</h4>
+            <h4>技能清单</h4>
             <hr>
             <Skills :skills="skills"></Skills>
         </div>
 
-        <div v-if="interns" class="interns">
-            <h4>INTERNSHIP</h4>
-            <hr>
-            <List :source="interns"></List>
-        </div>
+        <!--<div v-if="interns" class="interns">-->
+            <!--<h4>INTERNSHIP</h4>-->
+            <!--<hr>-->
+            <!--<List :source="interns"></List>-->
+        <!--</div>-->
 
         <div class="projects">
-            <h4>PROJECTS</h4>
+            <h4>项目经验</h4>
             <hr>
             <List :source="projects"></List>
         </div>
@@ -45,7 +46,6 @@
     import List from './List';
     import Skills from './Skills';
     import info from '../assets/info';
-    import allProjects from '../assets/allProjects';
 
     export default {
         name: 'Home',
@@ -72,6 +72,9 @@
 
         .email {
             margin-left: 20px;
+        }
+        .links, .blogs {
+            text-align: center;
         }
     }
 
