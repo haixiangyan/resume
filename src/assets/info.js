@@ -76,7 +76,6 @@ export default {
         },
         {
             left: '电影购买系统（移动端）',
-            link: 'https://haixiang6123.github.io/yan-xuan/#/home/recommend',
             right: '2018年1月',
             children: [
                 {left: '本项目是基于 React.js 开发的电影选购系统，主要实现多类型搜索功能，购物车，用户登录功能等'},
@@ -88,6 +87,7 @@ export default {
         },
         {
             left: '仿网易严选商城',
+            link: 'https://haixiang6123.github.io/yan-xuan/#/home/recommend',
             right: '2017年8月',
             children: [
                 {left: '本项目基于 Vue.js 开发的仿网易严选商城（移动端），主要实现商品详情，商品分类，购买商品功能'},
