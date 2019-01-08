@@ -10,7 +10,7 @@
 				Github: <a :href="github">{{github}}</a>
 			</p>
             <p class="linkedin">
-                LinkedIn: <a :href="linkedin">{{linkedin}}</a>
+                Medium: <a :href="linkedin">{{linkedin}}</a>
             </p>
         </div>
 
@@ -45,7 +45,7 @@
     import List from './List';
     import Skills from './Skills';
     import info from '../assets/info';
-    import allProjects from '../assets/allProjects';
+    // import allProjects from '../assets/allProjects';
 
     export default {
         name: 'Home',

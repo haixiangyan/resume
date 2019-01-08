@@ -2,7 +2,7 @@ export default {
     name: 'Haixiang Yan',
     tel: '+19492413576',
     email: 'haixiany@uci.edu',
-    linkedin: 'https://www.linkedin.com/in/yan-haixiang-0b9744150/',
+    linkedin: 'https://medium.com/@haixiang6123',
 	github: 'https://github.com/Haixiang6123',
     edus: [
         {
@@ -33,20 +33,31 @@ export default {
         },
     ],
     skills: {
-        langs: ['JavaScript', 'Java', 'Python', 'C', 'C++'],
-        frontend: ['React.js', 'Vue.js', 'jQuery', 'ES6', 'SCSS', 'CSS3'],
-        backend: ['Express.js', 'Koa.js', 'Flask', 'MySQL', 'MongoDB', 'Oracle (PL/SQL)'],
+        langs: ['JavaScript', 'Java', 'python'],
+        frontend: ['React.js', 'Vue.js', 'jQuery', 'ES6', 'Sass', 'CSS3'],
         test: ['Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'JMeter'],
         mobile: ['React Native', 'Android'],
     },
     projects: [
         {
+            left: 'Code Block Beautifier',
+            link: 'https://github.com/Haixiang6123/codeblock-beautifier',
+            right: 'Jan 2019',
+            children: [
+                {left: 'Built a *Chrome Extension* to highlight codes in any website has "pre" element'},
+                {left: 'Provides over 20 languages for auto-detection and over 70 different themes'},
+                {left: 'Applied DFS algorithm to combine continuous "pre" elements as one "pre" element'},
+                {left: 'Strong compatible: Supporting Medium, StackOverflow, MDN, Jianshu and Zhihu'},
+                {left: 'Used Observer Pattern to dispatch and trigger events of changing theme and language preference'}
+            ]
+        },
+        {
             left: 'Wheel UI Widgets Library',
             link: 'https://haixiang6123.github.io/wheel-ui/',
             right: 'July 2018',
             children: [
-                {left: 'Developed a UI widgets library with Vue.js and published on npm to let developers beatify their website'},
-                {left: 'Upgraded component styles codes by using SCSS to encapsulate some Mixins for reusing styles'},
+                {left: 'Developed a UI widgets library with *Vue.js* and published on npm to let developers beatify their website'},
+                {left: 'Upgraded component styles codes by using *Sass* to encapsulate some Mixins for reusing styles'},
                 {left: 'Wrote unit tests with assertion and stubbing frameworks like Chai, Sinon and Mocha'},
                 {left: 'Improved robustness by combining Travis CI and Karma to do integration testing'},
                 {left: 'Deployed official documentation website with VuePress to demonstrate details of APIs for developers'},
@@ -57,9 +68,9 @@ export default {
             link: 'https://haixiang6123.github.io/guitar-editor/#/',
             right: 'Mar 2018',
             children: [
-                {left: 'Designed a guitar tabs editor with React.js for users to develop guitar tabs by writing formatted texts'},
+                {left: 'Designed a guitar tabs editor with *React.js* for users to develop guitar tabs by writing formatted texts'},
                 {left: "Rendered Markdown/LaTex texts to a guitar tab to reduce user's learning costs"},
-                {left: 'Formatted guitar tabs size by using SVG to display guitar chords'},
+                {left: 'Formatted guitar tabs size by using *SVG* to display guitar chords'},
                 {left: 'Implemented 2 chord displaying modes so that user can choose to show chords above lyrics in text or SVG'},
                 {left: 'Published component Chord to let developers customize their own chords and use standard chords with React.js'}
             ]
@@ -70,18 +81,8 @@ export default {
             children: [
                 {left: 'Built the movie gallery system with React.js for users to view, search and purchase movies'},
                 {left: 'Improved website security by setting route guards with React Router and detecting robot with Google reCAPTCHA'},
-                {left: 'Controlled movie data, search results and shopping carts with Redux and shared them to common components'},
-                {left: 'Strengthened website performance by launching it on AWS with load balancing support and analyzing its performance with JMeter'},
-                {left: 'Accessing same APIs developed with Servlet, the Android app was built to make it more flexible and scalable'},
-            ]
-        },
-        {
-            left: 'Pikachu',
-            link: 'https://haixiang6123.github.io/pikachu/',
-            right: 'Feb 2018',
-            children: [
-                {left: 'Utilized jQuery, HTML5 and CSS3 to draw a Pikachu on a web page'},
-                {left: 'Drawing a Pikachu dynamically while writing CSS codes line by line'}
+                {left: 'Controlled movie data, search results and shopping carts with *Redux* and shared them to common components'},
+                {left: 'Accessing same APIs developed with Servlet, a Android app was built to make it more flexible and scalable'},
             ]
         },
     ],
