@@ -1,6 +1,6 @@
 export default {
     name: 'Haixiang Yan',
-    tel: '+19492413576',
+    tel: '+19493467358',
     email: 'haixiany@uci.edu',
     linkedin: 'https://medium.com/@haixiang6123',
 	github: 'https://github.com/Haixiang6123',
@@ -52,8 +52,8 @@ export default {
             ]
         },
         {
-            left: 'Wheel UI Widgets Library',
-            link: 'https://haixiang6123.github.io/wheel-ui/',
+            left: 'Overwatch UI Library',
+            link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
             right: 'July 2018',
             children: [
                 {left: 'Developed a UI widgets library with *Vue.js* and published on npm to let developers beatify their website'},
