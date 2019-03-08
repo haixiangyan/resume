@@ -10,7 +10,7 @@
 				Github: <a :href="github">{{github}}</a>
 			</p>
             <p class="linkedin">
-                Medium: <a :href="linkedin">{{linkedin}}</a>
+                Personal Website: <a :href="linkedin">{{linkedin}}</a>
             </p>
         </div>
 

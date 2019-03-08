@@ -2,7 +2,7 @@ export default {
     name: 'Haixiang Yan',
     tel: '+19493467358',
     email: 'haixiany@uci.edu',
-    linkedin: 'https://medium.com/@haixiang6123',
+    linkedin: 'https://haixiang6123.github.io/blog/#/',
 	github: 'https://github.com/Haixiang6123',
     edus: [
         {
