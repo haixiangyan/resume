@@ -5,6 +5,7 @@ export default {
 	github: 'https://github.com/Haixiang6123',
     jianshu: 'https://www.jianshu.com/u/0340be4082b5',
     medium: 'https://medium.com/@haixiang6123',
+    website: 'https://haixiang6123.github.io/blog/#/',
     edus: [
         {
             left: '加州大学尔湾分校',
@@ -42,24 +43,36 @@ export default {
     },
     projects: [
         {
-            left: 'Chrome 翻译小助手',
-            link: 'https://github.com/Haixiang6123/translate-chr',
+            left: '守望先锋 UI 库',
+            link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
+            right: '2019年2月',
             children: [
-                {left: '该翻译插件使用了 **Chrome Extension** 提供的开发插件 API 和谷歌提供的翻译 API'},
-                {left: '实现了6种语言的自由翻译，如英语，日语，法语等。通过使用 DOM API 在选中文本旁边生成译文面板'},
-                {left: '点击右键即可进行自动跳转并用百度对选中文本进行翻译'}
+                {left: '本项目是基于 **Vue.js** 并模仿守望先锋 UI 开发的一套 UI 组件库'},
+                {left: '使用 CSS 预处理器 SASS 定制组件的样式，定义不同 Mixins 来封装样式以提高样式的重用度'},
+                {left: '使用 *Chai、Sinon、Mocha* 对组件进行单元测试，同时结合 *Travis CI、Karma* 进行集成测试，目前测试覆盖率为 82.5%'},
+                {left: '目前该 UI 库已发布到 npm，当前月下截量为 2000+'}
             ]
         },
         {
-            left: '基于 Vue.js 的 UI 库',
-            link: 'https://haixiang6123.github.io/wheel-ui/',
-            right: '2018年7月',
+            left: 'Medium 代码高亮插件',
+            link: 'https://github.com/Haixiang6123/codeblock-beautifier/blob/master/README-CN.md',
+            right: '2019年1月',
             children: [
-                {left: '基于 *Vue.js* 利用其特性，如 Vue 过度&动画，插槽，自定义插件开发的一套组件UI库，并最后发布发 npm 上'},
-                {left: '使用 CSS 预处理器 Sass 定制组件的样式，定义不同 Mixins 来封装样式来提高样式的重用度'},
-                {left: '使用 *Chai、Sinon、Mocha* 测试组件是否能处理边界情况，保证在所有情况下都能正常使用'},
-                {left: '配置 *Travis CI、Karma* 对每次 Git 的提交做集成测试，以提高 UI 库的健壮性'},
-                {left: '使用 VuePress 搭建 UI 库的官方开发文档，通过 Markdown 来编写 API 使用手册'},
+                {left: '使用 **谷歌插件 API** 开发的代码高亮插件，高亮任何网站里的代码，主要支持 Medium，知乎，简书，StackOverflow'},
+                {left: '通过 Highlight.js 来自动检测代码块中的语言，用户可以通过设置语言偏好来提高自动检测语言的准确度'},
+                {left: '支持 80 多种代码主题以及 20 多种编程语言'},
+                {left: '目前插件已发布到 Google Chrome Extension APP Store，用户数已破百'}
+            ]
+        },
+        {
+            left: '迷你手绘板',
+            link: 'https://haixiang6123.github.io/sketch-book/',
+            right: '2018年12月',
+            children: [
+                {left: '本项目基于 **Canvas API** 来开发的模拟手绘板'},
+                {left: '通过监听 mouse 事件来实现用户手绘图形，并调用绘制空白矩形完成橡皮擦功能'},
+                {left: '实现了用户选择不同颜色，不同画笔粗细来绘制图形的功能'},
+                {left: '通过临时生成 a 标签实现下载绘制后的图形'}
             ]
         },
         {
@@ -72,17 +85,6 @@ export default {
                 {left: '其中上述两个组件已经发布到 npm，开发人员可对其进行个性化的定制来实现其它的和弦图'},
                 {left: '使用 *SVG* 来渲染和弦图和六线谱图'},
                 {left: '实现两种查看和弦图的格式：文本模式和和弦图模式。前者展示吉他谱概况，后者详细显示具体和弦图'},
-            ]
-        },
-        {
-            left: '电影购买系统（移动端）',
-            right: '2018年1月',
-            children: [
-                {left: '本项目是基于 React.js 开发的电影选购系统，主要实现多类型搜索功能，购物车，用户登录功能等'},
-                {left: '使用 *React Router* 搭建网站的路由系统，并在路由设置守卫来防止对管理页面的非法访问'},
-                {left: '使用 *Redux* 对全局数据进行管理，如搜索结果、用户购物车信息，将信息与相应组件共享'},
-                {left: '将网站发布至 AWS ，并为其配置负载均衡。将数据存放到 Master DB 和 slave DB 中来降低数据库的压力'},
-                {left: '使用 JAX-RS 配合 Servlet 的注解来设计 *RESTFul* 风格 API，替代传统的 SOAP 方案'}
             ]
         },
         {
