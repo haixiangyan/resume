@@ -10,8 +10,7 @@
                 Github <a :href="github">{{github}}</a>
             </div>
             <div class="blogs">
-                简书: <a :href="jianshu">{{jianshu}}</a>
-                Medium: <a :href="medium">{{medium}}</a>
+                个人网站 <a :href="website">{{website}}</a>
             </div>
         </div>
 
