@@ -10,7 +10,7 @@
                 Github <a :href="github">{{github}}</a>
             </div>
             <div class="blogs">
-                个人网站 <a :href="website">{{website}}</a>
+                个人主页 <a :href="website">{{website}}</a>
             </div>
         </div>
 
@@ -26,11 +26,11 @@
             <Skills :skills="skills"></Skills>
         </div>
 
-        <!--<div v-if="interns" class="interns">-->
-            <!--<h4>INTERNSHIP</h4>-->
-            <!--<hr>-->
-            <!--<List :source="interns"></List>-->
-        <!--</div>-->
+        <div v-if="interns" class="interns">
+            <h4>INTERNSHIP</h4>
+            <hr>
+            <List :source="interns"></List>
+        </div>
 
         <div class="projects">
             <h4>项目经验</h4>
