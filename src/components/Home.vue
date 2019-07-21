@@ -27,7 +27,7 @@
         </div>
 
         <div v-if="interns" class="interns">
-            <h4>INTERNSHIP</h4>
+            <h4>实习经历</h4>
             <hr>
             <List :source="interns"></List>
         </div>

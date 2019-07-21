@@ -1,19 +1,16 @@
 <template>
     <ul>
         <li>
-            <strong>编程语言: </strong>{{skills.langs.join(', ')}}
+            <strong>框架：</strong>{{skills.frameworks.join(', ')}}
         </li>
         <li>
-            <strong>前端开发: </strong>{{skills.frontend.join(', ')}}
+            <strong>库：</strong>{{skills.libraries.join(', ')}}
         </li>
         <li>
-            <strong>后端开发: </strong>{{skills.backend.join(', ')}}
+            <strong>工具：</strong>{{skills.tools.join(', ')}}
         </li>
         <li>
-            <strong>移动端开发: </strong>{{skills.mobile.join(', ')}}
-        </li>
-        <li>
-            <strong>单元测试: </strong>{{skills.test.join(', ')}}
+            <strong>测试&部署</strong>{{skills.tests.join(', ')}}
         </li>
     </ul>
 </template>
