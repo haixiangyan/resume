@@ -33,7 +33,7 @@
         </div>
 
         <div class="projects">
-            <h4>项目经验</h4>
+            <h4>个人项目</h4>
             <hr>
             <List :source="projects"></List>
         </div>

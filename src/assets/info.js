@@ -35,7 +35,7 @@ export default {
         },
     ],
     skills: {
-        frameworks: ['Vue.js', 'React.js', 'TypeScript', 'Express.js', 'Flask'],
+        frameworks: ['Vue.js', 'React.js', 'TypeScript', 'Angular', 'Express.js', 'Flask'],
         libraries: ['Element UI', 'Ant Design', 'GraphQL', 'Vue-Apollo', 'Mapbox'],
         tools: ['Sass', 'Webpack', 'Parcel', 'faker', 'faker'],
         tests: ['Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'Puppeteer', 'Gitlab CICD'],
@@ -51,7 +51,17 @@ export default {
                 {left: '使用 Mapbox 实现地图选区功能：画圆选区，多边形选区，地图上显示地理信息'},
                 {left: '运用 GraphQL 配合 Vue-Apollo 处理大部分数据请求，同时使用 Vue-Apollo 提供的 Subscription 功能实现通知模块'}
             ]
-        }
+        },
+        {
+            left: 'Brix Lab（前端，美国 Irvine）',
+            link: '',
+            right: '2019年4月',
+            children: [
+                {left: '使用 *React.js* 单独开发一套OJ（Online Judge）系统'},
+                {left: '基于 *Ant Design* 和 *Sass* 样式预处理器编写组件样式'},
+                {left: '使用 *Ace Editor* 实现在线编辑代码功能，并用 Session 记住每道编程题的做题情况'}
+            ]
+        },
     ],
     projects: [
         {
