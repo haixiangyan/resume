@@ -12,14 +12,17 @@ export default {
             right: '美国加州',
             children: [
                 {
-                    left: '专业：计算机科学硕士',
+                    left: '专业：Master of Networked System',
                     right: '2018年9月 - 2019年12月'
+                },
+                {
+                    left: 'GPA: 3.3/4.0'
                 }
             ]
         },
         {
             left: '东北大学',
-            right: '沈阳',
+            right: '中国沈阳',
             children: [
                 {
                     left: '专业：软件工程本科，GPA：3.6/5.0',
@@ -29,7 +32,7 @@ export default {
                     left: '荣誉：3年三等奖学金，1年二等奖学金',
                 },
                 {
-                    left: '交换经历：在加州大学尔湾分校做交换生，GPA：3.8/4.0'
+                    left: '交换生经历：在加州大学尔湾分校做交换生，GPA：3.8/4.0'
                 }
             ]
         },
@@ -47,7 +50,7 @@ export default {
             right: '2019年6月',
             children: [
                 {left: '开发 LAANC（Low-Altitude Authorization and Notification）系统'},
-                {left: '使用 Element UI 重做原先使用 Buefy + Bulma 编写的组件，并根据新 UI 设计稿重写用户交互逻辑和组件样式'},
+                {left: '使用 **Element UI** 重做原先使用 Buefy + Bulma 编写的组件，并根据新 UI 设计稿重写用户交互逻辑和组件样式'},
                 {left: '使用 Mapbox 实现地图选区功能：画圆选区，多边形选区，地图上显示地理信息'},
                 {left: '运用 GraphQL 配合 Vue-Apollo 处理大部分数据请求，同时使用 Vue-Apollo 提供的 Subscription 功能实现通知模块'}
             ]
@@ -65,7 +68,7 @@ export default {
     ],
     projects: [
         {
-            left: '守望先锋 UI 库（Star: 174, NPM Downloads: 10k+）',
+            left: '守望先锋 UI 库（Star: 174, NPM 下载量: 10k+）',
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
             right: '2019年2月',
             children: [
