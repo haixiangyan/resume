@@ -56,7 +56,7 @@ export default {
             ]
         },
         {
-            left: 'Brix Lab（前端，美国 Irvine）',
+            left: 'Brix（前端，Irvine）',
             link: '',
             right: '2019年4月',
             children: [
