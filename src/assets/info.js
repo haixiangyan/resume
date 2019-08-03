@@ -45,18 +45,18 @@ export default {
     },
     interns: [
         {
-            left: '大疆创新（前端，美国 Palo Alto）',
+            left: '大疆创新（前端实习，美国 Palo Alto）',
             link: '',
             right: '2019年6月',
             children: [
                 {left: '开发 LAANC（Low-Altitude Authorization and Notification）系统'},
-                {left: '使用 **Element UI** 重做原先使用 Buefy + Bulma 编写的组件，并根据新 UI 设计稿重写用户交互逻辑和组件样式'},
-                {left: '使用 Mapbox 实现地图选区功能：画圆选区，多边形选区，地图上显示地理信息'},
-                {left: '运用 GraphQL 配合 Vue-Apollo 处理大部分数据请求，同时使用 Vue-Apollo 提供的 Subscription 功能实现通知模块'}
+                {left: '使用 *Element UI* 重做原先使用 *Buefy* + *Bulma* 编写的组件，并根据新 UI 设计稿重写用户交互逻辑和组件样式'},
+                {left: '使用 *Mapbox* 实现地图选区功能：画圆选区，多边形选区，地图上显示地理信息'},
+                {left: '运用 *GraphQL* 配合 Vue-Apollo 处理大部分数据请求，同时使用 Vue-Apollo 提供的 Subscription 功能实现通知模块'}
             ]
         },
         {
-            left: 'Brix（前端，Irvine）',
+            left: 'Brix（前端实习，Irvine）',
             link: '',
             right: '2019年4月',
             children: [
