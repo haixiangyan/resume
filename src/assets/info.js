@@ -68,7 +68,28 @@ export default {
     ],
     projects: [
         {
-            left: '守望先锋 UI 库（Star: 174, NPM 下载量: 10k+）',
+            left: '命令行工具',
+            link: 'https://github.com/Haixiang6123/awesome-cli-tools',
+            right: '2019年7月',
+            children: [
+                {left: '该项目主要收集了本人开发的命令行工具，主要为：wtf-cli，thanos-snap-cli，uci-reg-cli'},
+                {left: 'wtf-cli: 一个用于搜索英文缩写的命令行工具，主要用 *cheerio* 爬取 https://www.abbreviations.com 里的内容加以整理实现，下载量：300+'},
+                {left: 'thanos-snap-cli: 该命令行工具会将随机删除一半指定目录下的文件，主要用 *Node.js* 提供的 fs 模块实现'},
+                {left: 'uci-reg-cli: 该命令行工具主要用于在终端里显示指定专业的课表'}
+            ]
+        },
+        {
+            left: '猫狗探探',
+            link: 'https://github.com/Haixiang6123/awesome-a-cat-a-dog',
+            right: '2019年3月',
+            children: [
+                {left: '该项目调用外部 API 来展示小猫小狗图片，并实现点赞，上传图片，收藏功能'},
+                {left: '分别使用三大框架（*Vue.js*，*React.js*，*Angular*）+ *TypeScript* + *Sass* 来完成应用的所有功能'},
+                {left: '使用 *ECharts.js* 分析图片中出现的物件，以饼图展示'},
+            ]
+        },
+        {
+            left: '守望先锋 UI 库（Star: 178, NPM 下载量: 10k+）',
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
             right: '2019年2月',
             children: [
@@ -79,14 +100,14 @@ export default {
             ]
         },
         {
-            left: '代码高亮插件（Star: 93, 用户量：460）',
+            left: '代码高亮插件（Star: 95, 用户量：480+）',
             link: 'https://github.com/Haixiang6123/codeblock-beautifier/blob/master/README-CN.md',
             right: '2019年1月',
             children: [
                 {left: '一个用于高亮博客文章代码块的 *Chrome* 插件，目前支持 Medium，知乎，简书，StackOverflow 等大部分博客网站'},
                 {left: '通过 *Highlight.js* 自动检测代码所使用的语言，用户可以通过设置语言偏好来提高自动检测语言的准确度'},
-                {left: '使用回溯法来组合连续出现的 pre 元素'},
-                {left: '使用事件监听来更新代码主题和语言偏好'},
+                {left: '使用深度搜索来合并连续出现的 pre 元素'},
+                {left: '使用 *Event Hub* 来更新代码主题和语言偏好'},
                 {left: '该插件提供支持 80 多种代码主题以及 20 多种编程语言'}
             ]
         },
@@ -107,8 +128,7 @@ export default {
             right: '2018年5月',
             children: [
                 {left: '本项目是基于 *React.js* 开发的吉他谱在线编辑器，吉他谱作者可以通过编写规定格式的文本来创作吉他谱'},
-                {left: '将类 Markdown/Latex 格式文本渲染成网页形式，使用 *SVG* 来渲染吉他和弦图和六线谱'},
-                {left: '实现两种查看和弦图的格式：文本模式和和弦图模式。前者展示吉他谱概况，后者详细显示具体和弦图'},
+                {left: '将特定格式的文本渲染成转化成网页，并使用 *SVG* 来渲染吉他和弦图和六线谱'},
             ]
         },
         {
@@ -117,9 +137,9 @@ export default {
             right: '2017年8月',
             children: [
                 {left: '本项目基于 *Vue.js* 开发的仿网易严选商城（移动端），主要实现商品详情，商品分类，购买商品功能'},
-                {left: '使用 Vuex 管理组件共享的数据，同时使用 localStorage 来存放用户登录状态'},
+                {left: '使用 *Vuex* 管理组件共享的数据，同时使用 localStorage 来存放用户登录状态'},
                 {left: '利用 *Vue Router* 的导航守卫功能来管理用户访问权限'},
-                {left: '使用 *Mock.js* 来为页面提供数据，并用来测试后端的 API'}
+                {left: '使用 *Mock.js* 来生成假数据，用于测试后端的 API'}
             ]
         }
     ],
