@@ -53,7 +53,7 @@ export default {
                 {left: '使用 *Element UI* 重做原先使用 *Buefy* + *Bulma* 编写的组件，并根据新 UI 设计稿重写用户交互逻辑和组件样式'},
                 {left: '使用 *Mapbox* 实现地图选区功能：画圆选区，多边形选区，地图上显示地理信息'},
                 {left: '运用 *GraphQL* 配合 Vue-Apollo 处理大部分数据请求，同时使用 Vue-Apollo 提供的 Subscription 功能实现通知模块'},
-                {left: '使用 *Jest* 编写单元测试，用 *Puppeteer* 编写表单的集成测试，用 *MockServer* 和 Vue-Apollo 测试 RESTful API 和 GraphQL 接口，并在 Gitlab 上进行自动化测试。'}
+                {left: '使用 *Jest* 编写单元测试，用 *Puppeteer* 编写表单的集成测试，用 *MockServer* 和 Vue-Apollo 测试 RESTful API 和 GraphQL 接口，并在 Gitlab 上进行自动化测试。'},
                 {left: '结合 *Vuex* 和 *vuex-pathify* 来精简处理 store 状态的代码'}
             ]
         },
@@ -62,9 +62,10 @@ export default {
             link: '',
             right: '2019年4月',
             children: [
-                {left: '使用 *React.js* 单独开发一套OJ（Online Judge）系统'},
-                {left: '基于 *Ant Design* 和 *Sass* 样式预处理器编写组件样式'},
-                {left: '使用 *Ace Editor* 实现在线编辑代码功能，并用 Session 记住每道编程题的做题情况'}
+                {left: '使用 *React.js* 单独开发一套 OJ（Online Judge）系统'},
+                {left: '基于 *Ant Design* 和 *Sass* 编写组件样式和网页布局'},
+                {left: '使用 *Ace Editor* 实现在线编辑代码功能，并用 Session 记住每道编程题的做题情况'},
+                {left: '前后端分离，使用 *Mock.js* 生成假数据来测试后端提供的 RESTful API'}
             ]
         },
     ],
