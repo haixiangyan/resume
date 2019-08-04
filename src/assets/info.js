@@ -69,7 +69,7 @@ export default {
     projects: [
         {
             left: '命令行工具',
-            link: 'https://github.com/Haixiang6123/awesome-cli-tools',
+            link: 'https://github.com/Haixiang6123/awesome-cli',
             right: '2019年7月',
             children: [
                 {left: '该项目主要收集了本人开发的命令行工具，主要为：wtf-cli，thanos-snap-cli，uci-reg-cli'},
