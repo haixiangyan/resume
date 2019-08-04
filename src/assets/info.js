@@ -54,6 +54,7 @@ export default {
                 {left: '使用 *Mapbox* 实现地图选区功能：画圆选区，多边形选区，地图上显示地理信息'},
                 {left: '运用 *GraphQL* 配合 Vue-Apollo 处理大部分数据请求，同时使用 Vue-Apollo 提供的 Subscription 功能实现通知模块'},
                 {left: '使用 *Jest* 编写单元测试，用 *Puppeteer* 编写表单的集成测试，用 *MockServer* 和 Vue-Apollo 测试 RESTful API 和 GraphQL 接口，并在 Gitlab 上进行自动化测试。'}
+                {left: '结合 *Vuex* 和 *vuex-pathify* 来精简处理 store 状态的代码'}
             ]
         },
         {
@@ -97,7 +98,7 @@ export default {
                 {left: '本项目是基于 *Vue.js* 并模仿守望先锋 UI 开发的一套 UI 组件库'},
                 {left: '合理运用 Vue 的特性来打造每个组件，如过渡，slot，provider，watch 属性，生命周期钩子等'},
                 {left: '使用 CSS 预处理器 Sass 定制组件的样式，并定义不同 Mixins 来封装样式以提高样式的重用度'},
-                {left: '使用 *Chai、Sinon、Mocha* 对组件进行单元测试，并结合 *Travis CI，Karma* 进行自动化测试'},
+                {left: '使用 *Chai，Sinon，Mocha* 对组件进行单元测试，并结合 *Travis CI，Karma* 进行自动化测试'},
             ]
         },
         {
