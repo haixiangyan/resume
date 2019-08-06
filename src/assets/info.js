@@ -40,7 +40,7 @@ export default {
     skills: {
         frameworks: ['Vue.js', 'React.js', 'TypeScript', 'Angular', 'Express.js', 'Flask'],
         libraries: ['Element UI', 'Ant Design', 'GraphQL', 'Vue-Apollo', 'Mapbox'],
-        tools: ['Sass', 'Webpack', 'Parcel', 'faker', 'faker'],
+        tools: ['Sass', 'Webpack', 'Parcel', 'Faker.js', 'Mock.js'],
         tests: ['Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'Puppeteer', 'Gitlab CICD'],
     },
     interns: [
@@ -54,11 +54,11 @@ export default {
                 {left: '使用 *Mapbox* 实现地图选区功能：画圆选区，多边形选区，地图上显示地理信息'},
                 {left: '运用 *GraphQL* 配合 Vue-Apollo 处理大部分数据请求，同时使用 Vue-Apollo 提供的 Subscription 功能实现通知模块'},
                 {left: '使用 *Jest* 编写单元测试，用 *Puppeteer* 编写表单的集成测试，用 *MockServer* 和 Vue-Apollo 测试 RESTful API 和 GraphQL 接口，并在 Gitlab 上进行自动化测试。'},
-                {left: '结合 *Vuex* 和 *vuex-pathify* 来精简处理 store 状态的代码'}
+                {left: '结合 *Vuex* 和 Vuex-Pathify 来精简处理 store 状态的代码'}
             ]
         },
         {
-            left: 'Brix（前端实习，Irvine）',
+            left: 'Brix（前端实习，美国 Irvine）',
             link: '',
             right: '2019年4月',
             children: [
@@ -103,7 +103,7 @@ export default {
             ]
         },
         {
-            left: '代码高亮插件（Star: 95, 用户量：480+）',
+            left: '代码高亮插件（Star: 95, 用户量：470+）',
             link: 'https://github.com/Haixiang6123/codeblock-beautifier/blob/master/README-CN.md',
             right: '2019年1月',
             children: [
