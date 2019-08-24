@@ -4,6 +4,7 @@
             <p class="item">
                 <span class="left">
                     {{item.left}}
+                    <br>
                     <a class="link" v-if="item.link" :href="item.link"> ({{item.link}})</a>
                 </span>
                 <span class="right">{{item.right}}</span>

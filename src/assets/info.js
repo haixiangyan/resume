@@ -49,7 +49,7 @@ export default {
         },
         {
             left: 'Code Block Beautifier (Stars: 90+, Users: 500+)',
-            link: 'https://chrome.google.com/webstore/detail/code-block-beautifier/gpcjjddhdnilcbddlonlfgdbejfboonn',
+            link: 'https://github.com/Haixiang6123/codeblock-beautifier',
             right: 'Jan 2019',
             children: [
                 {left: 'Built a *Chrome Extension* for highlighting code blocks of Medium articles to improve readability'},
@@ -59,7 +59,7 @@ export default {
             ]
         },
         {
-            left: 'Guitar Tabs Editor',
+            left: 'Guitar Tabs Editor (Stars: 29)',
             link: 'https://haixiang6123.github.io/guitar-editor/#/',
             right: 'Mar 2018',
             children: [
@@ -67,16 +67,6 @@ export default {
                 {left: "Rendered Markdown/LaTex texts to a guitar tab to reduce user's learning costs"},
                 {left: 'Formatted guitar tabs size by using *SVG* to display guitar chords'},
                 {left: 'Implemented 2 chord displaying modes so that user can choose to show chords above lyrics in text or SVG'},
-            ]
-        },
-        {
-            left: 'Movie Gallery System',
-            right: 'Jan 2018',
-            children: [
-                {left: 'Built the movie gallery system with React.js for users to view, search and purchase movies'},
-                {left: 'Improved website security by setting route guards with React Router and detecting robot with Google reCAPTCHA'},
-                {left: 'Controlled movie data, search results and shopping carts with *Redux* and shared them to common components'},
-                {left: 'Accessing same APIs developed with Servlet, an Android app was built to make it more flexible and scalable'},
             ]
         },
     ],
@@ -91,6 +81,16 @@ export default {
                 {left: 'Replaced *RESTful API* with *GraphQL* and used vue-apollo to manage multiple apollo clients'},
                 {left: 'Wrote unit test and integration test with *Jest* and *Puppeteer*. Used *MockServer* to generate dummy data for testing requests'},
                 {left: 'Combined *Vuex* and vuex-pathify to store selected area features globally'}
+            ]
+        },
+        {
+            left: 'Brix (Frontend Developer)',
+            right: 'Mar. 2019 - Jun 2019',
+            children: [
+                {left: 'Developed an Online-Coding system with *React.js*'},
+                {left: 'Developed a manage system with *HTML*, *CSS* and *JavaScript* to show tables of backend database'},
+                {left: 'Used *Ant Design* and *Sass* to design website layout and component styles'},
+                {left: 'Implemented online editor by using *ACE editor* and record coding states with Session'},
             ]
         }
     ]
