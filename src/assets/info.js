@@ -30,8 +30,8 @@ export default {
         },
     ],
     skills: {
-        frameworks: ['Vue.js', 'React.js', 'TypeScript', 'Angular', 'Express.js', 'Flask'],
-        libraries: ['Element UI', 'Ant Design', 'GraphQL', 'Vue-Apollo', 'Mapbox'],
+        frameworks: ['Vue.js', 'React.js', 'Angular', 'Express.js', 'Flask'],
+        libraries: ['Element UI', 'Ant Design', 'GraphQL', 'TypeScript', 'Vue-Apollo', 'Mapbox'],
         tools: ['Sass', 'Webpack', 'Parcel', 'Faker.js', 'Mock.js'],
         test: ['Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'Puppeteer', 'Gitlab CICD'],
     },
