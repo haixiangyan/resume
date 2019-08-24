@@ -14,7 +14,7 @@ export default {
                     right: 'Dec 2019'
                 },
                 {
-                    left: 'Courses: Information Retrieval, Machine Learning, Graph Algorithm, Network Security',
+                    left: 'Courses: Information Retrieval, Machine Learning, Graph Algorithm, Network Security, Networking Lab',
                 }
             ]
         },
@@ -37,6 +37,16 @@ export default {
         test: ['Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'Puppeteer'],
     },
     projects: [
+        {
+            left: 'Mini Search Engine',
+            right: 'Apr 2019',
+            children: [
+                {left: 'Developed a Search Engine with *Java* based on *Page Ranking* and *TF-IDF Ranking*'},
+                {left: 'Applied a *Dynamic Programming* algorithm to tokenize keywords'},
+                {left: 'Implement 2 main functions: flush and merge to deal with *LSM-based* file storage'},
+                {left: 'Developed a *Delta Variable-length* Compressor to compress files'},
+            ]
+        },
         {
             left: 'Overwatch UI Library (Stars: 300+, NPM Downloads: 11k+)',
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
@@ -78,7 +88,6 @@ export default {
             children: [
                 {left: 'Developed LAANC system (Low-Altitude Authorization and Notification) by using Vue.js'},
                 {left: 'Migrated UI library from *Buefy* to *Element* and redesign components based on new design draft'},
-                {left: "Used *Mapbox* to implement map-related functions: Circle selected area, draw layers with *geojson*, filter map features"},
                 {left: 'Replaced *RESTful API* with *GraphQL* and used vue-apollo to manage multiple apollo clients'},
                 {left: 'Wrote unit test and integration test with *Jest* and *Puppeteer*. Used *MockServer* to generate dummy data for testing requests'},
                 {left: 'Combined *Vuex* and vuex-pathify to store selected area features globally'}
