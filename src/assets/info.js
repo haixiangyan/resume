@@ -1,6 +1,6 @@
 export default {
     name: 'Haixiang Yan',
-    tel: '+19493467358',
+    tel: '+1(949)346-7358',
     email: 'haixiany@uci.edu',
 	github: 'https://github.com/Haixiang6123',
     website: 'https://haixiang6123.github.io/blog/#/',
@@ -24,7 +24,7 @@ export default {
                     right: 'Jun 2018'
                 },
                 {
-                    left: 'Honors: Third-class Scholarship (15%, Northeastern University)',
+                    left: 'Honors: Third-class Scholarship (Top 15%)',
                 },
             ]
         },

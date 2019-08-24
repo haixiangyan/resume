@@ -9,8 +9,8 @@
 			<p class="github">
 				Github: <a :href="github">{{github}}</a>
 			</p>
-            <p class="linkedin">
-                Personal Website: <a :href="website">{{website}}</a>
+            <p class="personal-website">
+                Website: <a :href="website">{{website}}</a>
             </p>
         </div>
 
