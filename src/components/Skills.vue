@@ -1,13 +1,7 @@
 <template>
     <ul>
         <li>
-            <strong>Frameworks: </strong>{{skills.frameworks.join(', ')}}
-        </li>
-        <li>
-            <strong>Libraries: </strong>{{skills.libraries.join(', ')}}
-        </li>
-        <li>
-            <strong>Tools: </strong>{{skills.tools.join(', ')}}
+            <strong>Frontend: </strong>{{skills.frontend.join(', ')}}
         </li>
         <li>
             <strong>Test: </strong>{{skills.test.join(', ')}}

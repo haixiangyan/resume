@@ -12,6 +12,9 @@ export default {
                 {
                     left: 'M.S. Networked System',
                     right: 'Dec 2019'
+                },
+                {
+                    left: 'Courses: Information Retrieval, Machine Learning, Graph Algorithm, Network Security',
                 }
             ]
         },
@@ -24,16 +27,14 @@ export default {
                     right: 'Jun 2018'
                 },
                 {
-                    left: 'Honors: Third-class Scholarship (Top 15%)',
-                },
+                    left: 'Courses: Algorithm, Data Structure, Computer Architecture, Computer Network, Software Engineering'
+                }
             ]
         },
     ],
     skills: {
-        frameworks: ['Vue.js', 'React.js', 'Angular', 'Express.js', 'Flask'],
-        libraries: ['Element UI', 'Ant Design', 'GraphQL', 'TypeScript', 'Vue-Apollo', 'Mapbox'],
-        tools: ['Sass', 'Webpack', 'Parcel', 'Faker.js', 'Mock.js'],
-        test: ['Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'Puppeteer', 'Gitlab CICD'],
+        frontend: ['Vue.js', 'React.js', 'TypeScript', 'ES6', 'Sass', 'Webpack', 'Express.js'],
+        test: ['Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'Puppeteer'],
     },
     projects: [
         {
