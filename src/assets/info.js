@@ -44,7 +44,7 @@ export default {
                 {left: 'Developed a UI widgets library with *Vue.js* based on Overwatch UI style'},
                 {left: 'Polished each component by using Vue.js features, such as slot, transition, watch properties'},
                 {left: 'Used CSS preprocessor *Sass* to customize component styles and define *Mixins* to reuse styles'},
-                {left: 'Wrote unit tests with *Chai，Sinon，Mocha* and set up CI environment with *Travis CI，Karma*'},
+                {left: 'Wrote unit tests with *Chai, Sinon, Mocha* and set up CI environment with *Travis CI, Karma*'},
             ]
         },
         {
@@ -88,9 +88,9 @@ export default {
                 {left: 'Developed LAANC system (Low-Altitude Authorization and Notification) by using Vue.js'},
                 {left: 'Migrated UI library from *Buefy* to *Element* and redesign components based on new design draft'},
                 {left: "Used *Mapbox* to implement map-related functions: Circle selected area, draw layers with *geojson*, filter map features"},
-                {left: 'Replaced *RESTful API* with *GraphQL* and used *Vue-Apollo* to manage multiple apollo clients'},
+                {left: 'Replaced *RESTful API* with *GraphQL* and used vue-apollo to manage multiple apollo clients'},
                 {left: 'Wrote unit test and integration test with *Jest* and *Puppeteer*. Used *MockServer* to generate dummy data for testing requests'},
-                {left: 'Combined *Vuex* and *Vuex-Pathify* to store selected area features globally'}
+                {left: 'Combined *Vuex* and vuex-pathify to store selected area features globally'}
             ]
         }
     ]
