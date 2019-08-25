@@ -92,7 +92,7 @@ export default {
             ]
         },
         {
-            left: '守望先锋 UI 库（Star: 178, NPM 下载量: 10k+）',
+            left: '守望先锋 UI 库（Star: 300+, NPM 下载量: 11k+）',
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
             right: '2019年2月',
             children: [
