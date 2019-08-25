@@ -13,7 +13,7 @@ export default {
             children: [
                 {
                     left: '专业：Master of Networked System',
-                    right: '2018年9月 - 2020年3月'
+                    right: '2018年9月 - 2020年6月'
                 },
                 {
                     left: 'GPA: 3.3/4.0'
