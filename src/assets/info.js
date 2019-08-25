@@ -11,7 +11,7 @@ export default {
             children: [
                 {
                     left: 'M.S. Networked System',
-                    right: 'Dec 2019'
+                    right: '09/2018 - 06/2020'
                 },
                 {
                     left: 'Courses: Information Retrieval, Machine Learning, Graph Algorithm, Network Security, Networking Lab',
@@ -24,7 +24,7 @@ export default {
             children: [
                 {
                     left: 'B.S. Engineering in Software Engineering',
-                    right: 'Jun 2018'
+                    right: '10/2014 - 06/2018'
                 },
                 {
                     left: 'Courses: Algorithm, Data Structure, Computer Architecture, Computer Network, Software Engineering'
@@ -39,7 +39,7 @@ export default {
     projects: [
         {
             left: 'Mini Search Engine',
-            right: 'Apr 2019',
+            right: '04/2019',
             children: [
                 {left: 'Developed a Search Engine with *Java* based on *Page Ranking* and *TF-IDF Ranking*'},
                 {left: 'Applied a *Dynamic Programming* algorithm to tokenize keywords'},
@@ -50,7 +50,7 @@ export default {
         {
             left: 'Overwatch UI Library (Stars: 300+, NPM Downloads: 11k+)',
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
-            right: 'Mar 2019',
+            right: '03/2019',
             children: [
                 {left: 'Developed a UI widgets library with *Vue.js* based on Overwatch UI style'},
                 {left: 'Polished each component by using Vue.js features, such as slot, transition, watch properties'},
@@ -61,7 +61,7 @@ export default {
         {
             left: 'Code Block Beautifier (Stars: 90+, Users: 500+)',
             link: 'https://github.com/Haixiang6123/codeblock-beautifier',
-            right: 'Jan 2019',
+            right: '01/2019',
             children: [
                 {left: 'Built a *Chrome Extension* for highlighting code blocks of Medium articles to improve readability'},
                 {left: 'Auto detected programming language for each code blocks'},
@@ -72,7 +72,7 @@ export default {
         {
             left: 'Guitar Tabs Editor (Stars: 29)',
             link: 'https://haixiang6123.github.io/guitar-editor/#/',
-            right: 'Mar 2018',
+            right: '03/2018',
             children: [
                 {left: 'Designed a guitar tabs editor with *React.js* for users to compose guitar tabs by writing formatted texts'},
                 {left: "Rendered Markdown/LaTex texts to a guitar tab to reduce user's learning costs"},
@@ -84,7 +84,7 @@ export default {
     interns: [
         {
             left: 'DJI (Frontend Developer)',
-            right: 'Jun. 2019 - Sept 2019',
+            right: '06/2019 - 09/2019',
             children: [
                 {left: 'Developed LAANC system (Low-Altitude Authorization and Notification) by using Vue.js'},
                 {left: 'Migrated UI library from *Buefy* to *Element* and redesign components based on new design draft'},
@@ -95,7 +95,7 @@ export default {
         },
         {
             left: 'Brix (Frontend Developer)',
-            right: 'Mar. 2019 - Jun 2019',
+            right: '03/2019 - 06/2019',
             children: [
                 {left: 'Developed an Online-Coding system with *React.js*'},
                 {left: 'Developed a manage system with *HTML*, *CSS* and *JavaScript* to show tables of backend database'},
