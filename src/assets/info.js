@@ -94,7 +94,7 @@ export default {
             ]
         },
         {
-            left: 'Brix (Frontend Developer)',
+            left: 'Brix (Research Project)',
             right: '03/2019 - 06/2019',
             children: [
                 {left: 'Developed an Online-Coding system with *React.js*'},
