@@ -10,8 +10,8 @@ export default {
             right: 'Irvine, CA',
             children: [
                 {
-                    left: 'M.S. Networked System',
-                    right: '09/2018 - 06/2020'
+                    left: 'M.S. Networked System, GPA: 3.3',
+                    right: '09/2018 - 03/2020'
                 },
                 {
                     left: 'Courses: Information Retrieval, Machine Learning, Graph Algorithm, Network Security, Networking Lab',
@@ -23,7 +23,7 @@ export default {
             right: 'Shenyang, China',
             children: [
                 {
-                    left: 'B.S. Engineering in Software Engineering',
+                    left: 'B.S. Engineering in Software Engineering, GPA: 3.6',
                     right: '10/2014 - 06/2018'
                 },
                 {
@@ -59,7 +59,7 @@ export default {
             ]
         },
         {
-            left: 'Code Block Beautifier (Stars: 90+, Users: 500+)',
+            left: 'Code Block Beautifier (Stars: 95+, Users: 500+)',
             link: 'https://github.com/Haixiang6123/codeblock-beautifier',
             right: '01/2019',
             children: [
