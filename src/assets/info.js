@@ -13,7 +13,7 @@ export default {
             children: [
                 {
                     left: '专业：Master of Networked System',
-                    right: '2018年9月 - 2020年6月'
+                    right: '2018年9月 - 2020年3月'
                 },
                 {
                     left: 'GPA: 3.3/4.0'
@@ -31,17 +31,14 @@ export default {
                 {
                     left: '荣誉：3年三等奖学金，1年二等奖学金',
                 },
-                {
-                    left: '交换生经历：在加州大学尔湾分校做交换生，GPA：3.8/4.0'
-                }
             ]
         },
     ],
     skills: {
-        frameworks: ['Vue.js', 'React.js', 'TypeScript', 'Angular', 'Express.js', 'Flask'],
+        frameworks: ['Vue.js', 'React.js', 'TypeScript', 'Angular', 'Express.js'],
         libraries: ['Element UI', 'Ant Design', 'GraphQL', 'Vue-Apollo', 'Mapbox'],
-        tools: ['Sass', 'Webpack', 'Parcel', 'Faker.js', 'Mock.js'],
-        tests: ['Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'Puppeteer', 'Gitlab CICD'],
+        tools: ['Sass', 'Webpack', 'Faker.js', 'Mock.js'],
+        tests: ['Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'Puppeteer'],
     },
     interns: [
         {
@@ -71,28 +68,7 @@ export default {
     ],
     projects: [
         {
-            left: '命令行工具',
-            link: 'https://github.com/Haixiang6123/awesome-cli',
-            right: '2019年7月',
-            children: [
-                {left: '该项目主要收集了本人开发的命令行工具，主要为：wtf-cli，thanos-snap-cli，uci-reg-cli'},
-                {left: 'wtf-cli: 一个用于搜索英文缩写的命令行工具，主要用 *cheerio* 爬取 https://www.abbreviations.com 里的内容加以整理实现，下载量：300+'},
-                {left: 'thanos-snap-cli: 该命令行工具会将随机删除一半指定目录下的文件，主要用 *Node.js* 提供的 fs 模块实现'},
-                {left: 'uci-reg-cli: 该命令行工具主要用于在终端里显示指定专业的课表'}
-            ]
-        },
-        {
-            left: '猫狗探探',
-            link: 'https://github.com/Haixiang6123/awesome-a-cat-a-dog',
-            right: '2019年3月',
-            children: [
-                {left: '该项目调用外部 API 来展示小猫小狗图片，并实现点赞，上传图片，收藏功能'},
-                {left: '分别使用三大框架（*Vue.js*，*React.js*，*Angular*）+ *TypeScript* + *Sass* 来完成应用的所有功能'},
-                {left: '使用 *ECharts.js* 分析图片中出现的物件，以饼图展示'},
-            ]
-        },
-        {
-            left: '守望先锋 UI 库（Star: 300+, NPM 下载量: 11k+）',
+            left: '守望先锋 UI 库（Star: 330+, NPM 下载量: 11k+）',
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
             right: '2019年2月',
             children: [
@@ -103,7 +79,7 @@ export default {
             ]
         },
         {
-            left: '代码高亮插件（Star: 95, 用户量：470+）',
+            left: '代码高亮插件（Star: 95, 用户量：500+）',
             link: 'https://github.com/Haixiang6123/codeblock-beautifier/blob/master/README-CN.md',
             right: '2019年1月',
             children: [
