@@ -42,13 +42,13 @@ export default {
             right: '04/2019',
             children: [
                 {left: 'Developed a Search Engine with *Java* based on *Page Ranking* and *TF-IDF Ranking*'},
-                {left: 'Applied a *Dynamic Programming* algorithm to tokenize keywords'},
-                {left: 'Implement 2 main functions: flush and merge to deal with *LSM-based* file storage'},
+                {left: 'Optimized process of tokenizing keywords by using *Dynamic Programming* algorithm'},
+                {left: 'Implemented *LSM-based* file storage to improve performance of reading bytes from segments'},
                 {left: 'Developed a *Delta Variable-length* Compressor to compress files'},
             ]
         },
         {
-            left: 'Overwatch UI Library (Stars: 300+, NPM Downloads: 11k+)',
+            left: 'Overwatch UI (Stars: 330+, NPM Downloads: 11k+)',
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
             right: '03/2019',
             children: [
@@ -86,11 +86,10 @@ export default {
             left: 'DJI (Frontend Developer)',
             right: '06/2019 - 09/2019',
             children: [
-                {left: 'Developed LAANC system (Low-Altitude Authorization and Notification) by using Vue.js'},
-                {left: 'Migrated UI library from *Buefy* to *Element* and redesign components based on new design draft'},
-                {left: 'Replaced *RESTful API* with *GraphQL* and used vue-apollo to manage multiple apollo clients'},
-                {left: 'Wrote unit test and integration test with *Jest* and *Puppeteer*. Used *MockServer* to generate dummy data for testing requests'},
-                {left: 'Combined *Vuex* and vuex-pathify to store selected area features globally'}
+                {left: 'Lead front-end web development for the LAANC project using *Vue.js* and *Mapbox*.'},
+                {left: 'Worked with Product Designers to implement the new design of LAANC and migrated UI library from *Buefy* to *Element* and redesign components based on new design draft'},
+                {left: '*Optimized web performance* by using *ETag* based HTTP caching to fetch map features and using *Lazy load* to generate new page'},
+                {left: 'Collaborated on a technical timeline for the project, detailing tasks to front-end engineers in both Palo Alto and Shenzhen'}
             ]
         },
         {
