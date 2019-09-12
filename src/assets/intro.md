@@ -1,5 +1,7 @@
 ## First view
-My name is Haixiang, a talented student in UCI. I have a great passion in Frontend Development and have already worked on so many personal projects with popular web frameworks, like Overwatch UI (NPM downloads: 11K+), Code Block Beautifier (Users: 500+) and an online guitar editor. From 06/2019 to 09/2019, I worked on the LAANC project by using Vue.js and Mapbox as a frontend intern in DJI. I collaborated on a technical timeline for the project, detailing tasks to front-end engineers in both Palo Alto and Shenzhen and helped to migrate the project to a new UI design.
+My name is Haixiang, a master student at UC Irvine majoring in networked system. I have a great passion for Frontend Development, and I have already developed bunches of personal projects like Overwatch UI (NPM downloads: 11K+), Code Block Beautifier (Users: 500+) and an online guitar sheet music editor with popular web frameworks.   
+
+From 06/2019 to 09/2019, I have a frontend developer internship at DJI, where I worked on the LAANC project by using Vue.js and Mapbox as a frontend inter. I also collaborated on a technical timeline for the project, detailing tasks to front-end engineers in both Palo Alto and Shenzhen and helped to migrate the project to a new UI design. 
 
 ## Third view
 Haixiang is a master student at UC Irvine majoring in networked system.  He owns such a great passion for Frontend Development that he has already developed bunches of personal projects like Overwatch UI (NPM downloads: 11K+), Code Block Beautifier (Users: 500+) and an online guitar sheet music editor with popular web frameworks.   
