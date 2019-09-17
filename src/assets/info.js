@@ -53,8 +53,8 @@ export default {
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
             right: '03/2019',
             children: [
-                {left: 'Developed a UI widgets library with *Vue.js* based on Overwatch UI style'},
-                {left: 'Polished each component by using Vue.js features, such as slot, transition, watch properties'},
+                {left: 'Developed a UI library with *Vue.js* and *Webpack* based on Overwatch UI style'},
+                {left: 'Applied Vue.js features, such as *slot*, *transition*, *watch properties* to design and implement component'},
                 {left: 'Used CSS preprocessor *Sass* to customize component styles and define *Mixins* to reuse styles'},
                 {left: 'Wrote unit tests with *Chai, Sinon, Mocha* and set up CI environment with *Travis CI, Karma*'},
             ]
@@ -66,7 +66,7 @@ export default {
             children: [
                 {left: 'Built a *Chrome Extension* for highlighting code blocks of Medium articles to improve readability'},
                 {left: 'Applied *DFS algorithm* to combine continuous "pre" elements as one "pre" element'},
-                {left: 'Used Observer Pattern to dispatch and trigger events with *ES6*, like updating theme and language preference'}
+                {left: 'Used Observer Pattern to dispatch and trigger events with *JavaScript (ES6)*, like updating theme and language preference'}
             ]
         },
         {
@@ -75,8 +75,8 @@ export default {
             right: '03/2018',
             children: [
                 {left: 'Designed a guitar tabs editor with *React.js* for users to compose guitar tabs by writing formatted texts'},
-                {left: ''},
                 {left: 'Formatted guitar tabs size by using *SVG* to display guitar chords'},
+                {left: 'Used *React Router* to manage web pages and stored global data in *Redux*'}
             ]
         },
     ],
