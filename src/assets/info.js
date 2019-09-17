@@ -10,8 +10,8 @@ export default {
             right: 'Irvine, CA',
             children: [
                 {
-                    left: 'M.S. Networked System',
-                    right: '09/2018 - 06/2020'
+                    left: 'M.S. Networked System, GPA: 3.3',
+                    right: '09/2018 - 03/2020'
                 },
                 {
                     left: 'Courses: Information Retrieval, Machine Learning, Graph Algorithm, Network Security, Networking Lab',
@@ -23,7 +23,7 @@ export default {
             right: 'Shenyang, China',
             children: [
                 {
-                    left: 'B.S. Engineering in Software Engineering',
+                    left: 'B.S. Engineering in Software Engineering, GPA: 3.6',
                     right: '10/2014 - 06/2018'
                 },
                 {
@@ -33,8 +33,8 @@ export default {
         },
     ],
     skills: {
-        frontend: ['Vue.js', 'React.js', 'TypeScript', 'ES6', 'Sass', 'HTML/CSS', 'Webpack'],
-        backend: ['Java', 'Servlet', ''],
+        frontend: ['Vue.js', 'React.js', 'TypeScript', 'ES6', 'Sass', 'HTML5', 'CSS3', 'Webpack'],
+        backend: ['Java', 'Servlet', 'JSP', 'Python', 'MySQL'],
         test: ['Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'Puppeteer'],
     },
     projects: [
@@ -43,13 +43,13 @@ export default {
             right: '04/2019',
             children: [
                 {left: 'Developed a Search Engine with *Java* based on *Page Ranking* and *TF-IDF Ranking*'},
-                {left: 'Applied a *Dynamic Programming* algorithm to tokenize keywords'},
-                {left: 'Implement 2 main functions: flush and merge to deal with *LSM-based* file storage'},
+                {left: 'Optimized process of tokenizing keywords by using *Dynamic Programming* algorithm'},
+                {left: 'Implemented *LSM-based* file storage to improve performance of reading bytes from segments'},
                 {left: 'Developed a *Delta Variable-length* Compressor to compress files'},
             ]
         },
         {
-            left: 'Overwatch UI Library (Stars: 300+, NPM Downloads: 11k+)',
+            left: 'Overwatch UI (Stars: 330+, NPM Downloads: 11k+)',
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
             right: '03/2019',
             children: [
@@ -60,14 +60,13 @@ export default {
             ]
         },
         {
-            left: 'Code Block Beautifier (Stars: 90+, Users: 500+)',
+            left: 'Code Block Beautifier (Stars: 95+, Users: 500+)',
             link: 'https://github.com/Haixiang6123/codeblock-beautifier',
             right: '01/2019',
             children: [
                 {left: 'Built a *Chrome Extension* for highlighting code blocks of Medium articles to improve readability'},
-                {left: 'Auto detected programming language for each code blocks'},
-                {left: 'Applied DFS algorithm to combine continuous "pre" elements as one "pre" element'},
-                {left: 'Used Observer Pattern to dispatch and trigger events, like updating theme and language preference'}
+                {left: 'Applied *DFS algorithm* to combine continuous "pre" elements as one "pre" element'},
+                {left: 'Used Observer Pattern to dispatch and trigger events with *ES6*, like updating theme and language preference'}
             ]
         },
         {
@@ -76,9 +75,8 @@ export default {
             right: '03/2018',
             children: [
                 {left: 'Designed a guitar tabs editor with *React.js* for users to compose guitar tabs by writing formatted texts'},
-                {left: "Rendered Markdown/LaTex texts to a guitar tab to reduce user's learning costs"},
+                {left: ''},
                 {left: 'Formatted guitar tabs size by using *SVG* to display guitar chords'},
-                {left: 'Implemented 2 chord displaying modes so that user can choose to show chords above lyrics in text or SVG'},
             ]
         },
     ],
@@ -87,21 +85,20 @@ export default {
             left: 'DJI (Frontend Developer)',
             right: '06/2019 - 09/2019',
             children: [
-                {left: 'Developed LAANC system (Low-Altitude Authorization and Notification) by using *Vue.js*'},
-                {left: 'Migrated UI library from *Buefy* to *Element* and redesign components based on new design draft'},
-                {left: 'Replaced *RESTful API* with *GraphQL* and used vue-apollo to manage multiple apollo clients'},
-                {left: 'Wrote *unit test* and *integration test* with *Jest* and *Puppeteer*. Used *MockServer* to generate dummy data for testing requests'},
-                {left: 'Combined Vuex and vuex-pathify to store selected area features globally'}
+                {left: 'Lead front-end web development for the LAANC project using *Vue.js* and *Mapbox*.'},
+                {left: 'Designed and implemented *RESTful* and *GraphQL* endpoints based on FAA test documents'},
+                {left: 'Worked with Product Designers to implement and design the UI components of LAANC and used *Sass* to migrate UI library from Buefy to Element'},
+                {left: 'Wrote *unit test* and *integration test* with *Jest* and *Puppeteer*'},
+                {left: '*Optimized web performance* by using *ETag based HTTP caching* to fetch map features and using *Lazy load* to generate new page'},
             ]
         },
         {
-            left: 'Brix (Frontend Developer)',
+            left: 'Brix (Research Project)',
             right: '03/2019 - 06/2019',
             children: [
-                {left: 'Developed an Online-Coding system with *React.js*'},
+                {left: 'Developed an Online-Coding system with *React.js* and *ACE Editor*'},
                 {left: 'Developed a manage system with *HTML*, *CSS* and *JavaScript* to show tables of backend database'},
                 {left: 'Used *Ant Design* and *Sass* to design website layout and component styles'},
-                {left: 'Implemented online editor by using *ACE editor* and record coding states with Session'},
             ]
         }
     ]
