@@ -4,6 +4,9 @@
             <strong>Frontend: </strong>{{skills.frontend.join(', ')}}
         </li>
         <li>
+            <strong>Backend: </strong>{{skills.backend.join(', ')}}
+        </li>
+        <li>
             <strong>Test: </strong>{{skills.test.join(', ')}}
         </li>
     </ul>

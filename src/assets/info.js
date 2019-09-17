@@ -33,7 +33,8 @@ export default {
         },
     ],
     skills: {
-        frontend: ['Vue.js', 'React.js', 'TypeScript', 'ES6', 'Sass', 'Webpack', 'Express.js'],
+        frontend: ['Vue.js', 'React.js', 'TypeScript', 'ES6', 'Sass', 'HTML/CSS', 'Webpack'],
+        backend: ['Java', 'Servlet', ''],
         test: ['Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI', 'Puppeteer'],
     },
     projects: [
@@ -86,11 +87,11 @@ export default {
             left: 'DJI (Frontend Developer)',
             right: '06/2019 - 09/2019',
             children: [
-                {left: 'Developed LAANC system (Low-Altitude Authorization and Notification) by using Vue.js'},
+                {left: 'Developed LAANC system (Low-Altitude Authorization and Notification) by using *Vue.js*'},
                 {left: 'Migrated UI library from *Buefy* to *Element* and redesign components based on new design draft'},
                 {left: 'Replaced *RESTful API* with *GraphQL* and used vue-apollo to manage multiple apollo clients'},
-                {left: 'Wrote unit test and integration test with *Jest* and *Puppeteer*. Used *MockServer* to generate dummy data for testing requests'},
-                {left: 'Combined *Vuex* and vuex-pathify to store selected area features globally'}
+                {left: 'Wrote *unit test* and *integration test* with *Jest* and *Puppeteer*. Used *MockServer* to generate dummy data for testing requests'},
+                {left: 'Combined Vuex and vuex-pathify to store selected area features globally'}
             ]
         },
         {
