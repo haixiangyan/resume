@@ -39,24 +39,14 @@ export default {
     },
     projects: [
         {
-            left: 'Mini Search Engine',
-            right: '04/2019',
-            children: [
-                {left: 'Developed a Search Engine with *Java* based on *Page Ranking* and *TF-IDF Ranking*'},
-                {left: 'Optimized process of tokenizing keywords by using *Dynamic Programming* algorithm'},
-                {left: 'Implemented *LSM-based* file storage to improve performance of reading bytes from segments'},
-                {left: 'Developed a *Delta Variable-length* Compressor to compress files'},
-            ]
-        },
-        {
             left: 'Overwatch UI (Stars: 330+, NPM Downloads: 11k+)',
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
             right: '03/2019',
             children: [
                 {left: 'Developed a UI library with *Vue.js* and *Webpack* based on Overwatch UI style'},
                 {left: 'Applied Vue.js features, such as *slot*, *transition*, *watch properties* to design and implement component'},
-                {left: 'Used CSS preprocessor *Sass* to customize component styles and define *Mixins* to reuse styles'},
-                {left: 'Wrote unit tests with *Chai, Sinon, Mocha* and set up CI environment with *Travis CI, Karma*'},
+                {left: 'Used CSS preprocessor *Sass* to customize component styles and define Mixins and sass functions to reuse 30% styles'},
+                {left: 'Wrote unit tests with *Chai, Sinon, Mocha* and set up CI environment with *Travis CI, Karma*. 80% test coverage.'},
             ]
         },
         {
@@ -70,13 +60,24 @@ export default {
             ]
         },
         {
+            left: 'Movie Gallery',
+            link: '',
+            right: '05/2018',
+            children: [
+                {left: 'Developed a movie gallery system by using *React.js*, *Redux* and *React Router*'},
+                {left: 'Designed 90% components with *styled-component* and *Sass*'},
+                {left: 'Implemented *RESTful* API and micro service with *Java Servlet* and *JDBC*'},
+                {left: 'Deployed system on *AWS* and *Google Cloud Service* and set up *Load Balance* to lower 50% server pressure'}
+            ]
+        },
+        {
             left: 'Guitar Tabs Editor (Stars: 29)',
             link: 'https://haixiang6123.github.io/guitar-editor/#/',
             right: '03/2018',
             children: [
                 {left: 'Designed a guitar tabs editor with *React.js* for users to compose guitar tabs by writing formatted texts'},
-                {left: 'Formatted guitar tabs size by using *SVG* to display guitar chords'},
-                {left: 'Used *React Router* to manage web pages and stored global data in *Redux*'}
+                {left: 'Used *SVG* to format guitar chords for standardizing guitar tabs'},
+                {left: 'Lower time complexity from O(n) to O(logn) by using binary search algorithm to search chords'}
             ]
         },
     ],
@@ -85,11 +86,11 @@ export default {
             left: 'DJI (Frontend Developer)',
             right: '06/2019 - 09/2019',
             children: [
-                {left: 'Lead front-end web development for the LAANC project using *Vue.js* and *Mapbox*.'},
-                {left: 'Designed and implemented *RESTful* and *GraphQL* endpoints based on FAA test documents'},
+                {left: 'Lead front-end web development for the LAANC project using *Vue.js* and *Mapbox*'},
+                {left: 'Designed and implemented 40% *RESTful* and *GraphQL* endpoints based on FAA test documents'},
                 {left: 'Worked with Product Designers to implement and design the UI components of LAANC and used *Sass* to migrate UI library from Buefy to Element'},
-                {left: 'Wrote *unit test* and *integration test* with *Jest* and *Puppeteer*'},
-                {left: '*Optimized web performance* by using *ETag based HTTP caching* to fetch map features and using *Lazy load* to generate new page'},
+                {left: 'Wrote *unit test* and *integration test* with *Jest* and *Puppeteer*, utils test coverage is 80%'},
+                {left: '*Optimized web performance* by using HTTP caching to fetch map features and using *Lazy load* to generate new page so that loading duration drops from 3s to 2s'},
             ]
         },
         {
