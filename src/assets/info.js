@@ -1,7 +1,7 @@
 export default {
     name: 'Haixiang Yan',
     tel: '+1(949)346-7358',
-    email: 'haixiang.job@gmail.edu',
+    email: 'haixiang.job@gmail.com',
 	github: 'https://github.com/Haixiang6123',
     website: 'https://haixiang6123.github.io/blog/#/',
     medium: 'https://medium.com/@haixiang6123',
