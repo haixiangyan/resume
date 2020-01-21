@@ -40,6 +40,17 @@ export default {
     },
     projects: [
         {
+            left: 'Search Engine',
+            link: 'https://github.com/Haixiang6123/mini-search-engine/blob/master/README.md',
+            right: '09/2019 - 12/2020',
+            children: [
+                {left: 'Developed a Search Engine based on Log-structured merge method and *Java*'},
+                {left: 'Used *Page Rank* and *TF-IDF ranking to score search results'},
+                {left: 'Applied *Dynamic Programming algorithm* for Text processing and Tokenization'},
+                {left: 'Implemented a compressor based on delta encoding and variable-length encoding to improve performance'},
+            ]
+        },
+        {
             left: 'Overwatch UI (Stars: 340+, NPM Downloads: 12k+)',
             link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
             right: '03/2019 - 07/2019',
@@ -71,16 +82,6 @@ export default {
                 {left: 'Designed 90% components with *styled-component* and *Sass*'},
                 {left: 'Implemented *RESTful* API and micro service with *Java Servlet* and *JDBC*'},
                 {left: 'Deployed system on *AWS* and *Google Cloud Service* and set up *Load Balance* to lower 50% server pressure'}
-            ]
-        },
-        {
-            left: 'Guitar Tabs Editor (Stars: 36)',
-            link: 'https://haixiang6123.github.io/guitar-editor/#/',
-            right: '03/2018 - 04/2018',
-            children: [
-                {left: 'Designed a guitar tabs editor with *React.js* for users to compose guitar tabs by writing formatted texts'},
-                {left: 'Used *SVG* to generate guitar tabs and chords'},
-                {left: 'Lower time complexity from O(n) to O(logn) by using *binary search algorithm* to search chords'}
             ]
         },
     ],
