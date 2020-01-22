@@ -41,7 +41,7 @@ export default {
     projects: [
         {
             left: 'Search Engine',
-            link: 'https://github.com/Haixiang6123/mini-search-engine/blob/master/README.md',
+            link: 'https://github.com/Haixiang6123/mini-search-engine',
             right: '09/2019 - 12/2020',
             children: [
                 {left: 'Developed a Search Engine based on Log-structured merge method and *Java*'},
