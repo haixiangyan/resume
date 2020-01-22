@@ -94,7 +94,6 @@ export default {
                 {left: 'Designed and implemented 40% *RESTful* and *GraphQL* endpoints based on FAA test documents'},
                 {left: 'Designed UI components and web page layouts, and used *Sass* to migrate UI library from Buefy UI to Element UI'},
                 {left: 'Wrote *unit tests* and *integration tests* with *Jest* and *Puppeteer*. 73% test coverage of UI components'},
-                {left: 'Used HTTP caching and lazy load to *optimize frontend performance*'},
             ]
         },
         {
