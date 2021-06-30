@@ -120,7 +120,7 @@ export default {
       ]
     },
     {
-      left: '吉他谱编辑器（Star: 24）',
+      left: '吉他谱编辑器（Star: 78）',
       link: 'https://haixiang6123.github.io/guitar-editor/#/',
       right: '2018年5月',
       children: [
