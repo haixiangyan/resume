@@ -20,10 +20,10 @@
       <List :source="edus"></List>
     </div>
 
-    <div class="skills">
-      <h4>技能清单</h4>
+    <div v-if="interns" class="interns">
+      <h4>工作经历</h4>
       <hr>
-      <Skills :skills="skills"></Skills>
+      <List :source="works"></List>
     </div>
 
     <div v-if="interns" class="interns">
@@ -36,6 +36,12 @@
       <h4>个人项目</h4>
       <hr>
       <List :source="projects"></List>
+    </div>
+
+    <div class="skills">
+      <h4>技能清单</h4>
+      <hr>
+      <Skills :skills="skills"></Skills>
     </div>
 
   </div>

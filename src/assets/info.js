@@ -40,6 +40,19 @@ export default {
     tools: ['Sass', 'Webpack', 'Faker.js', 'Mock.js'],
     tests: ['Cypress', 'Jest', 'Mocha', 'Sinon', 'Chai', 'Karma', 'Travis CI'],
   },
+  works: [
+    {
+      left: '腾讯@在线教育部',
+      link: '',
+      right: '2020年7月 - 至今',
+      children: [
+        {left: '使用 *React* + *Dva.js* + *Ant Design* 技术栈开发企业微信侧边栏应用'},
+        {left: '帮助公司项目工程化，接入 CICD 流水线进行自动部署'},
+        {left: '总结并输出侧边栏开发手册，并开发一套侧边栏上手模板，可使用 *Yoman* 一键初始化项目'},
+        {left: '调研，推动，并最终在侧边栏应用落地微前端技术，深入了解 *single-spa* 和 *qiankun* 两大微前端框架'},
+      ]
+    }
+  ],
   interns: [
     {
       left: '大疆创新（前端实习，美国 Palo Alto）',
@@ -48,10 +61,8 @@ export default {
       children: [
         {left: '开发 LAANC（Low-Altitude Authorization and Notification）系统'},
         {left: '使用 *Element UI* 重做原先使用 *Buefy* + *Bulma* 编写的组件，并根据新 UI 设计稿重写用户交互逻辑和组件样式'},
-        {left: '使用 *Mapbox* 实现地图选区功能：画圆选区，多边形选区，地图上显示地理信息'},
         {left: '运用 *GraphQL* 配合 Vue-Apollo 处理大部分数据请求，同时使用 Vue-Apollo 提供的 Subscription 功能实现通知模块'},
         {left: '使用 *Jest* 编写单元测试，用 *Puppeteer* 编写表单的集成测试，用 *MockServer* 和 Vue-Apollo 测试 RESTful API 和 GraphQL 接口，并在 Gitlab 上进行自动化测试。'},
-        {left: '结合 *Vuex* 和 Vuex-Pathify 来精简处理 store 状态的代码'}
       ]
     },
     {
