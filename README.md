@@ -1,14 +1,21 @@
-# resume
-My personal resume
+# 我的简历
 
-## Demo
+我的个人简历，欢迎查看和 Clone 来生成你的简历。
 
-[My Resume](https://yanhaixiang.com/resume-generator/)
+## 线上预览
 
-## How to use
+[点这里查看](https://github.yanhaixiang.com/resume)
+
+## 本地运行
 
 ```
-yarn install
+npm install
 
-yarn run serve
+npm run serve
+```
+
+## 发布
+
+```
+sh deploy.sh
 ```
