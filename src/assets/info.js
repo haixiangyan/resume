@@ -46,7 +46,7 @@ export default {
       link: '',
       right: '2020年7月 - 至今',
       children: [
-        {left: '主要负责微信私域流量运营，使用 *React* + *Dva.js* + *Ant Design* 技术栈开发企业微信侧边栏和业务管理后台'},
+        {left: '主要负责开发微信私域流量运营工具，使用 *React* + *Dva.js* + *Ant Design* 技术栈开发企业微信侧边栏和业务管理后台'},
         {left: '将项目工程化，接入 Coding 流水线，引入页面告警和埋点上报'},
         {left: '总结并输出侧边栏开发指南，并开发一套侧边栏上手模板（具体查看下方《企业微信侧边栏开发指南&开发模板》）'},
         {left: '调研微前端，深入了解并阅读 *single-spa* 和 *qiankun* 两大微前端框架的源码，总结两篇文章，最后在侧边栏应用中落地微前端技术'},
@@ -78,6 +78,15 @@ export default {
     },
   ],
   projects: [
+    {
+      left: 'Linter 上手系列文章',
+      link: 'https://github.com/linter-guide',
+      right: '2022年1月',
+      children: [
+        {left: '这本小书讲述了 Linter 的发展史，以及 Linter 工具的上手实践'},
+        {left: '包含内容有 *ESLint, Prettier, TypeScript, JSX, Vue, LintStaged, Husky*'},
+      ]
+    },
     {
       left: '企业微信侧边栏开发指南&开发模板',
       link: 'https://github.com/wecom-sidebar',
