@@ -12,16 +12,19 @@
       <h4>个人链接</h4>
       <hr>
       <div class="blogs">
-        主页: <strong><a :href="website">{{ website }}</a></strong>
+        主页: <strong><a :href="website" target="_blank">{{ website }}</a></strong>
       </div>
       <div class="links">
-        Github: <strong><a :href="github">{{ github }}</a></strong>
+        Github: <strong><a :href="github" target="_blank">{{ github }}</a></strong>
       </div>
       <div class="links">
-        知乎: <strong><a :href="zhihu">{{ zhihu }}</a></strong>
+        知乎: <strong><a :href="zhihu" target="_blank">{{ zhihu }}</a></strong>
       </div>
       <div class="links">
-        掘金: <strong><a :href="juejin">{{ juejin }}</a></strong>
+        掘金: <strong><a :href="juejin" target="_blank">{{ juejin }}</a></strong>
+      </div>
+      <div class="links">
+        Medium: <strong><a :href="medium" target="_blank">{{ medium }}</a></strong>
       </div>
     </div>
 

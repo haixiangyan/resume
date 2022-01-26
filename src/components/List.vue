@@ -5,7 +5,7 @@
                 <span class="left">
                     {{item.left}}
                     <small>
-                        <a class="link" v-if="item.link" :href="item.link"> ({{item.link}})</a>
+                        <a class="link" v-if="item.link" :href="item.link" target="_blank"> ({{item.link}})</a>
                     </small>
                 </span>
                 <span class="right">{{item.right}}</span>
