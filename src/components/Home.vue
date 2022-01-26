@@ -6,11 +6,22 @@
         电话: <strong class="tel">{{ tel }}</strong>
         邮件: <strong class="email">{{ email }}</strong>
       </p>
+    </div>
+
+    <div class="contact">
+      <h4>个人链接</h4>
+      <hr>
       <div class="blogs">
-        个人主页: <strong><a :href="website">{{ website }}</a></strong>
+        主页: <strong><a :href="website">{{ website }}</a></strong>
       </div>
       <div class="links">
         Github: <strong><a :href="github">{{ github }}</a></strong>
+      </div>
+      <div class="links">
+        知乎: <strong><a :href="zhihu">{{ zhihu }}</a></strong>
+      </div>
+      <div class="links">
+        掘金: <strong><a :href="juejin">{{ juejin }}</a></strong>
       </div>
     </div>
 
@@ -76,7 +87,7 @@ export default {
   }
 
   .links, .blogs {
-    text-align: center;
+    //text-align: center;
   }
 }
 

@@ -6,6 +6,8 @@ export default {
   jianshu: 'https://www.jianshu.com/u/0340be4082b5',
   medium: 'https://medium.com/@haixiang6123',
   website: 'https://yanhaixiang.com',
+  zhihu: 'https://www.zhihu.com/people/haixiangyan',
+  juejin: 'https://juejin.cn/user/272334614432887',
   edus: [
     {
       left: '加州大学尔湾分校',
@@ -42,14 +44,15 @@ export default {
   },
   works: [
     {
-      left: '腾讯@在线教育部',
+      left: '腾讯@IMWeb',
       link: '',
       right: '2020年7月 - 至今',
       children: [
         {left: '主要负责开发微信私域流量运营工具，使用 *React* + *Dva.js* + *Ant Design* 技术栈开发企业微信侧边栏和业务管理后台'},
-        {left: '将项目工程化，接入 Coding 流水线，引入页面告警和埋点上报'},
-        {left: '总结并输出侧边栏开发指南，并开发一套侧边栏上手模板（具体查看下方《企业微信侧边栏开发指南&开发模板》）'},
-        {left: '调研微前端，深入了解并阅读 *single-spa* 和 *qiankun* 两大微前端框架的源码，总结两篇文章，最后在侧边栏应用中落地微前端技术'},
+        {left: '开发企业微信侧边栏工具，总结并输出侧边栏开发指南，开发了一套侧边栏上手模板'},
+        {left: '使用 *Nest.js* 开发业务流程的 Node 中台接口'},
+        {left: '帮助项目工程化，接入 Coding 流水线以及添加 *CICD* 发布流程，接入页面告警和埋点上报'},
+        {left: '调研并深入了解 single-spa 和 *qiankun* 两大微前端框架的源码，在重构的项目中落地微前端'},
       ]
     }
   ],
@@ -79,7 +82,7 @@ export default {
   ],
   projects: [
     {
-      left: 'Linter 上手系列文章',
+      left: 'Linter 上手系列文章（Star: 100 +）',
       link: 'https://github.com/linter-guide',
       right: '2022年1月',
       children: [
@@ -93,9 +96,9 @@ export default {
       right: '2021年10月',
       children: [
         {left: '该 Github Organization 提供了一套完整的企业微信侧边栏的开发指'},
-        {left: '高度封装企业微信提供的 JS-SDK，使开发者可快速上手，并将其与 **React** 技术栈结合作为一个前端开发模板'},
-        {left: '使用 **Express** 封装企业微信服务端的转发服务，再结合 **Redis** 和 **Docker** 做一个 Node 端开发模板'},
-        {left: '利上面面两个模板二次开发，结合 **qiankun** 微前端框架，使用微前端的思路管理侧边栏应用'},
+        {left: '高度封装企业微信提供的 JS-SDK，使开发者可快速上手，并将其与 *React* 技术栈结合作为一个前端开发模板'},
+        {left: '使用 *Express* 封装企业微信服务端的转发服务，再结合 *Redis* 和 *Docker* 做一个 Node 端开发模板'},
+        {left: '利上面面两个模板二次开发，结合 *qiankun* 微前端框架，使用微前端的思路管理侧边栏应用'},
       ]
     },
     {
@@ -113,7 +116,7 @@ export default {
       right: '2021年4月',
       children: [
         {left: '一个测试驱动文档的生成器。灵感来源于 *autodoc* 和 *supertest*.'},
-        {left: '在写简单接口测试用例时，这个库可以配合 **Jest**，根据测试用例生成 API 文档。'},
+        {left: '在写简单接口测试用例时，这个库可以配合 *Jest*，根据单元测试用例来生成对应 API 文档'},
       ]
     },
     {
