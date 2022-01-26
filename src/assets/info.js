@@ -46,7 +46,7 @@ export default {
     {
       left: '腾讯@IMWeb',
       link: '',
-      right: '2020年7月 - 至今',
+      right: '2020年07月 - 至今',
       children: [
         {left: '主要负责开发微信私域流量运营工具，使用 *React* + *Dva.js* + *Ant Design* 技术栈开发企业微信侧边栏和业务管理后台'},
         {left: '开发企业微信侧边栏工具，总结并输出侧边栏开发指南，开发了一套侧边栏上手模板'},
@@ -60,7 +60,7 @@ export default {
     {
       left: '大疆创新（前端实习，美国 Palo Alto）',
       link: '',
-      right: '2019年6月',
+      right: '2019年06月',
       children: [
         {left: '开发 LAANC（Low-Altitude Authorization and Notification）系统'},
         {left: '使用 *Element UI* 重做原先使用 *Buefy* + *Bulma* 编写的组件，并根据新 UI 设计稿重写用户交互逻辑和组件样式'},
@@ -71,7 +71,7 @@ export default {
     {
       left: 'Brix（前端实习，美国 Irvine）',
       link: '',
-      right: '2019年4月',
+      right: '2019年04月',
       children: [
         {left: '使用 *React.js* 单独开发一套 OJ（Online Judge）系统'},
         {left: '基于 *Ant Design* 和 *Sass* 编写组件样式和网页布局'},
@@ -84,7 +84,7 @@ export default {
     {
       left: 'Linter 上手系列文章（Star: 100 +）',
       link: 'https://github.com/linter-guide',
-      right: '2022年1月',
+      right: '2022年01月',
       children: [
         {left: '这本小书讲述了 Linter 的发展史，以及 Linter 工具的上手实践'},
         {left: '包含内容有 *ESLint, Prettier, TypeScript, JSX, Vue, LintStaged, Husky*'},
@@ -104,7 +104,7 @@ export default {
     {
       left: '造轮子文章系列（Star: 1.4k+）',
       link: 'https://github.com/Haixiang6123/one-day-one-npm-lib',
-      right: '2021年5月',
+      right: '2021年05月',
       children: [
         {left: '小书会带读者造 10 个非常实用的 npm 库 📦，包括：*redux*, react-error-boundary, idb-keyval 等'},
         {left: '从一个最 Low 的解决方法，慢慢优化，并推导成源码的样子，将整个从 0 到 1 的设计与思考过程完整地呈现给读者。'},
@@ -113,7 +113,7 @@ export default {
     {
       left: 'node-autodoc',
       link: 'https://github.com/Haixiang6123/node-autodoc',
-      right: '2021年4月',
+      right: '2021年04月',
       children: [
         {left: '一个测试驱动文档的生成器。灵感来源于 *autodoc* 和 *supertest*.'},
         {left: '在写简单接口测试用例时，这个库可以配合 *Jest*，根据单元测试用例来生成对应 API 文档'},
@@ -122,7 +122,7 @@ export default {
     {
       left: '守望先锋 UI 库（Star: 410+）',
       link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
-      right: '2019年2月',
+      right: '2019年02月',
       children: [
         {left: '本项目是基于 *Vue.js* 并模仿守望先锋 UI 开发的一套 UI 组件库'},
         {left: '合理运用 Vue 的特性来打造每个组件，如过渡，slot，provider，watch 属性，生命周期钩子等'},
@@ -133,7 +133,7 @@ export default {
     {
       left: '代码高亮插件（Star: 110+, 用户量：1k+）',
       link: 'https://github.com/Haixiang6123/codeblock-beautifier/blob/master/README-CN.md',
-      right: '2019年1月',
+      right: '2019年01月',
       children: [
         {left: '一个用于高亮博客文章代码块的 *Chrome* 插件，支持 Medium，知乎，简书，StackOverflow 等大部分博客网站'},
         {left: '通过 *Highlight.js* 自动检测代码所使用的语言，用户可以通过设置语言偏好来提高自动检测语言的准确度'},
@@ -145,7 +145,7 @@ export default {
     {
       left: '吉他谱编辑器（Star: 90+）',
       link: 'https://haixiang6123.github.io/guitar-editor/#/',
-      right: '2018年5月',
+      right: '2018年05月',
       children: [
         {left: '本项目是基于 *React.js* 开发的吉他谱在线编辑器，吉他谱作者可以通过编写规定格式的文本来创作吉他谱'},
         {left: '将特定格式的文本渲染成转化成网页，并使用 *SVG* 来渲染吉他和弦图和六线谱'},
