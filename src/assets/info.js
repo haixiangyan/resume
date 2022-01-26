@@ -107,7 +107,7 @@ export default {
       right: '2021年05月',
       children: [
         {left: '小书会带读者造 10 个非常实用的 npm 库 📦，包括：*redux*, react-error-boundary, idb-keyval 等'},
-        {left: '从一个最 Low 的解决方法，慢慢优化，并推导成源码的样子，将整个从 0 到 1 的设计与思考过程完整地呈现给读者。'},
+        {left: '从一个最Low的解决方法，慢慢优化，并推导成源码的样子，将整个从 0 到 1 的设计与思考过程完整地呈现给读者。'},
       ]
     },
     {
