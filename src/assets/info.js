@@ -69,7 +69,7 @@ export default {
       ]
     },
     {
-      left: 'Brix（前端实习，美国 Irvine）',
+      left: 'Data Brix（前端实习，美国 Irvine）',
       link: '',
       right: '2019年04月',
       children: [
@@ -82,8 +82,8 @@ export default {
   ],
   projects: [
     {
-      left: 'Linter 上手系列文章（Star: 100 +）',
-      link: 'https://github.com/linter-guide',
+      left: 'Linter 上手系列文章（Star: 130 +）',
+      link: 'https://github.yanhaixiang.com/linter-tutorial/',
       right: '2022年01月',
       children: [
         {left: '这本小书讲述了 Linter 的发展史，以及 Linter 工具的上手实践'},
@@ -102,8 +102,8 @@ export default {
       ]
     },
     {
-      left: '造轮子文章系列（Star: 1.4k+）',
-      link: 'https://github.com/Haixiang6123/one-day-one-npm-lib',
+      left: '造轮子文章系列（Star: 1.5k+）',
+      link: 'https://github.yanhaixiang.com/make-wheels/',
       right: '2021年05月',
       children: [
         {left: '小书会带读者造 10 个非常实用的 npm 库 📦，包括：*redux*, react-error-boundary, idb-keyval 等'},
@@ -112,7 +112,7 @@ export default {
     },
     {
       left: 'node-autodoc',
-      link: 'https://github.com/Haixiang6123/node-autodoc',
+      link: 'https://github.com/haixiangyan/node-autodoc',
       right: '2021年04月',
       children: [
         {left: '一个测试驱动文档的生成器。灵感来源于 *autodoc* 和 *supertest*.'},
@@ -120,8 +120,8 @@ export default {
       ]
     },
     {
-      left: '守望先锋 UI 库（Star: 410+）',
-      link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
+      left: '守望先锋 UI 库（Star: 420+）',
+      link: 'https://github.yanhaixiang.com/overwatch-ui-doc/#/',
       right: '2019年02月',
       children: [
         {left: '本项目是基于 *Vue.js* 并模仿守望先锋 UI 开发的一套 UI 组件库'},
@@ -132,7 +132,7 @@ export default {
     },
     {
       left: '代码高亮插件（Star: 110+, 用户量：1k+）',
-      link: 'https://github.com/Haixiang6123/codeblock-beautifier/blob/master/README-CN.md',
+      link: 'https://github.com/haixiangyan/codeblock-beautifier/blob/master/README-CN.md',
       right: '2019年01月',
       children: [
         {left: '一个用于高亮博客文章代码块的 *Chrome* 插件，支持 Medium，知乎，简书，StackOverflow 等大部分博客网站'},
@@ -144,7 +144,7 @@ export default {
     },
     {
       left: '吉他谱编辑器（Star: 90+）',
-      link: 'https://haixiang6123.github.io/guitar-editor/#/',
+      link: 'https://github.yanhaixiang.com/guitar-tabs-editor/#/',
       right: '2018年05月',
       children: [
         {left: '本项目是基于 *React.js* 开发的吉他谱在线编辑器，吉他谱作者可以通过编写规定格式的文本来创作吉他谱'},
