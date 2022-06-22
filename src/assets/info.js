@@ -3,11 +3,9 @@ export default {
   tel: '15602564425',
   email: 'haixiang6123@gmail.com',
   github: 'https://github.com/haixiangyan',
-  jianshu: 'https://www.jianshu.com/u/0340be4082b5',
   medium: 'https://medium.com/@haixiang6123',
   website: 'https://yanhaixiang.com',
   zhihu: 'https://www.zhihu.com/people/haixiangyan',
-  juejin: 'https://juejin.cn/user/272334614432887',
   edus: [
     {
       left: '加州大学尔湾分校',
@@ -37,9 +35,8 @@ export default {
     },
   ],
   skills: {
-    frameworks: ['React.js', 'TypeScript/JavaScript/ES6', 'HTML5', 'CSS/CSS3/SCSS', 'Vue.js', 'Nest.js'],
-    libraries: ['Ant Design', 'GraphQL', 'Element UI'],
-    tools: ['Webpack', 'Babel', 'Faker.js', 'Mock.js'],
+    techs: ['React.js', 'Vue.js', 'HTML5', 'JavaScript', 'TypeScript', 'ES6', 'CSS3', 'SCSS', 'Node.js'],
+    frameworks: ['Ant Design', 'Element UI', 'Nest.js', 'Koa.js', 'Webpack', 'Babel'],
     tests: ['Cypress', 'Jest', 'React Testing Library'],
   },
   works: [
@@ -125,7 +122,7 @@ export default {
       children: [
         {left: '本项目是基于 *Vue.js* 并模仿守望先锋 UI 开发的一套 UI 组件库'},
         {left: '合理运用 Vue 的特性来打造每个组件，如过渡，slot，provider，watch 属性，生命周期钩子等'},
-        {left: '使用 CSS 预处理器 Sass 定制组件的样式，并定义不同 Mixins 来封装样式以提高样式的重用度'},
+        {left: '使用 CSS 预处理器 *Sass* 定制组件的样式，并定义不同 Mixins 来封装样式以提高样式的重用度'},
         {left: '使用 *Chai，Sinon，Mocha* 对组件进行单元测试，并结合 *Travis CI，Karma* 进行自动化测试'},
       ]
     },

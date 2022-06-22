@@ -21,9 +21,6 @@
         知乎: <strong><a :href="zhihu" target="_blank">{{ zhihu }}</a></strong>
       </div>
       <div class="links">
-        掘金: <strong><a :href="juejin" target="_blank">{{ juejin }}</a></strong>
-      </div>
-      <div class="links">
         Medium: <strong><a :href="medium" target="_blank">{{ medium }}</a></strong>
       </div>
     </div>

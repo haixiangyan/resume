@@ -1,16 +1,13 @@
 <template>
     <ul>
         <li>
-            <strong>框架：</strong>{{skills.frameworks.join(', ')}}
+            <strong>技术：</strong>{{skills.techs.join(', ')}}
         </li>
         <li>
-            <strong>库：</strong>{{skills.libraries.join(', ')}}
+            <strong>库 & 工具：</strong>{{skills.frameworks.join(', ')}}
         </li>
         <li>
-            <strong>工具：</strong>{{skills.tools.join(', ')}}
-        </li>
-        <li>
-            <strong>测试&部署</strong>{{skills.tests.join(', ')}}
+            <strong>测试 & 部署：</strong>{{skills.tests.join(', ')}}
         </li>
     </ul>
 </template>
