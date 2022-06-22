@@ -12,16 +12,16 @@
       <h4>个人链接</h4>
       <hr>
       <div class="blogs">
-        主页: <strong><a :href="website" target="_blank">{{ website }}</a></strong>
+        个人主页: <strong><a :href="website" target="_blank">{{ website }}</a>（非常 Cool）</strong>
       </div>
       <div class="links">
-        Github: <strong><a :href="github" target="_blank">{{ github }}</a></strong>
+        Github: <strong><a :href="github" target="_blank">{{ github }}</a>（500+ Followers）</strong>
       </div>
       <div class="links">
-        知乎: <strong><a :href="zhihu" target="_blank">{{ zhihu }}</a></strong>
+        知乎: <strong><a :href="zhihu" target="_blank">{{ zhihu }}</a>（1.6k+ 关注）</strong>
       </div>
       <div class="links">
-        Medium: <strong><a :href="medium" target="_blank">{{ medium }}</a></strong>
+        Medium: <strong><a :href="medium" target="_blank">{{ medium }}</a>（20+ 英文博客）</strong>
       </div>
     </div>
 
