@@ -48,8 +48,8 @@ export default {
         {left: '主要负责微信私域流量运营工具开发，使用 *React* + *Redux* + *Ant Design* 技术栈开发企业微信侧边栏和业务管理后台'},
         {left: '根据业务需要封装一套侧边栏开发 SDK 工具以及上手模板，并输出一套侧边栏的开发指南，以方便其它团队接入'},
         {left: '维护加强项目工程建设，帮项目接入 Coding 流水线，配置项目 *CICD* 发布流程，同时接入页面告警和埋点上报'},
-        {left: '调研并深入了解 single-spa 和 *qiankun* 微前端框架，在重构的项目中使用 *qiankun* 融合多个业务平台，实现增量更新'},
-        {left: '引入 Jest 以及 Linter，利用流水线实现质量红线、覆盖率告警，保证代码质量，并输出《Linter上手指南》和《Jest实践指南》两本系列小书'},
+        {left: '调研并深入了解 *single-spa* 和 *qiankun* 微前端框架，在重构的项目中使用 *qiankun* 融合多个业务平台，实现增量更新'},
+        {left: '引入 *Jest* 以及 *Linter* ，利用流水线实现质量红线、覆盖率告警，保证代码质量，并输出《Linter上手指南》和《Jest实践指南》两本系列小书'},
         {left: '使用 *Nest.js* 开发业务流程的 Node 中台接口'},
       ]
     }
@@ -81,7 +81,7 @@ export default {
       left: '造轮子文章系列（Star: 1.5k+）',
       link: 'https://github.yanhaixiang.com/make-wheels/',
       children: [
-        {left: '小书会带读者造 10 个非常实用的 npm 库 📦，包括：*redux*, react-error-boundary, idb-keyval 等'},
+        {left: '小书会带读者造 10 个非常实用的 npm 库 📦，包括：*redux*, *react-error-boundary*, *idb-keyval* 等'},
         {left: '每一章从最简单的解决方法开始，慢慢优化并推导成源码的样子，将整个从 0 到 1 的设计与思考过程完整地呈现给读者'},
         {left: '阅读了 10 个 NPM 常用轮子源码，并从头开始推演源码形成过程，最终整理成册'},
       ]
@@ -90,7 +90,7 @@ export default {
       left: 'Jest 实践系列文章（Star: 500+）',
       link: 'https://github.yanhaixiang.com/jest-tutorial/',
       children: [
-        {left: '这本小书整理了市面上 Jest 一些最佳实践，从 0 到 1 教会读者如何快速入门前端测试'},
+        {left: '这本小书整理了市面上 *Jest* 一些最佳实践，从 0 到 1 教会读者如何快速入门前端测试'},
         {left: '通读了 Kent C. Dodds 的英文博客，总结出一套适合初学者的 Jest 学习方法'},
         {left: '不仅用实战项目作为新手学习样例，还向读者展示其中原理以及实用的测试思路'},
       ]
