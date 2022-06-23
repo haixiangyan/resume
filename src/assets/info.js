@@ -12,12 +12,9 @@ export default {
       right: '美国加州',
       children: [
         {
-          left: '专业：Master of Networked System',
+          left: '专业：Master of Networked System，GPA: 3.3 / 4.0',
           right: '2018年9月 - 2020年3月'
         },
-        {
-          left: 'GPA: 3.3/4.0'
-        }
       ]
     },
     {
@@ -25,18 +22,14 @@ export default {
       right: '中国沈阳',
       children: [
         {
-          left: '专业：软件工程本科，GPA：3.6/5.0',
+          left: '专业：软件工程本科，GPA：3.6 / 5.0',
           right: '2014年10月 - 2018年6月'
-        },
-        {
-          left: '荣誉：3年三等奖学金，1年二等奖学金',
         },
       ]
     },
   ],
   skills: {
     techs: ['React.js', 'Vue.js', 'HTML5', 'JavaScript', 'TypeScript', 'ES6', 'CSS3', 'SCSS', 'Node.js'],
-    frameworks: ['Ant Design', 'Element UI', 'Nest.js', 'Koa.js', 'Webpack', 'Babel'],
     tests: ['Cypress', 'Jest', 'React Testing Library'],
   },
   works: [
@@ -88,21 +81,17 @@ export default {
       right: '2019年02月',
       children: [
         {left: '本项目是基于 *Vue.js* 并模仿守望先锋 UI 开发的一套 UI 组件库'},
-        {left: '合理运用 Vue 的特性来打造每个组件，如过渡，slot，provider，watch 属性，生命周期钩子等'},
         {left: '使用 CSS 预处理器 *Sass* 定制组件的样式，并定义不同 Mixins 来封装样式以提高样式的重用度'},
         {left: '使用 *Chai，Sinon，Mocha* 对组件进行单元测试，并结合 *Travis CI，Karma* 进行自动化测试'},
       ]
     },
     {
       left: '代码高亮插件（Star: 110+, 用户量：1k+）',
-      link: 'https://github.com/haixiangyan/codeblock-beautifier/blob/master/README-CN.md',
+      link: 'https://github.com/haixiangyan/codeblock-beautifier',
       right: '2019年01月',
       children: [
         {left: '一个用于高亮博客文章代码块的 *Chrome* 插件，支持 Medium，知乎，简书，StackOverflow 等大部分博客网站'},
-        {left: '通过 *Highlight.js* 自动检测代码所使用的语言，用户可以通过设置语言偏好来提高自动检测语言的准确度'},
-        {left: '使用深度搜索来合并连续出现的 pre 元素'},
-        {left: '使用 *Event Hub* 来更新代码主题和语言偏好'},
-        {left: '该插件提供支持 80 多种代码主题以及 20 多种编程语言'}
+        {left: '通过 *Highlight.js* 自动检测代码所使用的语言，支持 80 多种代码主题以及 20 多种编程语言'},
       ]
     },
     {
@@ -110,8 +99,7 @@ export default {
       link: 'https://github.yanhaixiang.com/guitar-tabs-editor/#/',
       right: '2018年05月',
       children: [
-        {left: '本项目是基于 *React.js* 开发的吉他谱在线编辑器，吉他谱作者可以通过编写规定格式的文本来创作吉他谱'},
-        {left: '将特定格式的文本渲染成转化成网页，并使用 *SVG* 来渲染吉他和弦图和六线谱'},
+        {left: '基于 *React.js* 开发的吉他谱在线编辑器，吉他谱作者可以通过编写类 Markdown 格式的文本来创作吉他谱'},
       ]
     },
   ],

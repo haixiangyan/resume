@@ -4,9 +4,6 @@
             <strong>技术：</strong>{{skills.techs.join(', ')}}
         </li>
         <li>
-            <strong>库 & 工具：</strong>{{skills.frameworks.join(', ')}}
-        </li>
-        <li>
             <strong>测试 & 部署：</strong>{{skills.tests.join(', ')}}
         </li>
     </ul>
