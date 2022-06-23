@@ -13,7 +13,12 @@
             <ul>
                 <li v-for="childrenItem in item.children">
                     <p class="children-item">
-                        <span v-html="renderLeft(childrenItem.left)" class="left"></span>
+                        <span class="left">
+                          <span v-html="renderLeft(childrenItem.left)"></span>
+                          <a class="link" v-if="childrenItem.link" :href="childrenItem.link" target="_blank">
+                            <strong>（{{childrenItem.link}}）</strong>
+                          </a>
+                        </span>
                         <span class="right">{{childrenItem.right}}</span>
                     </p>
                 </li>
@@ -51,17 +56,17 @@
         small {
             display: flex;
         }
+    }
 
-        .link {
-            color: #42b983;
-            text-decoration: none;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+    .link {
+      color: #42b983;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     .children-item {
-        font-size: 0.9em;
+      font-size: 0.9em;
     }
 </style>

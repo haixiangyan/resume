@@ -43,12 +43,6 @@
       <List :source="works"></List>
     </div>
 
-    <div class="books">
-      <h4>知识输出</h4>
-      <hr>
-      <List :source="books"></List>
-    </div>
-
     <div class="projects">
       <h4>个人项目</h4>
       <hr>
