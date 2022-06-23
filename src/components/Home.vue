@@ -12,7 +12,7 @@
       <h4>个人链接</h4>
       <hr>
       <div class="blogs">
-        个人主页: <strong><a :href="website" target="_blank">{{ website }}</a>（非常 Cool）</strong>
+        个人主页: <strong><a :href="website" target="_blank">{{ website }}</a>（很酷的个人页）</strong>
       </div>
       <div class="links">
         Github: <strong><a :href="github" target="_blank">{{ github }}</a>（500+ Followers）</strong>
@@ -37,16 +37,10 @@
       <Skills :skills="skills"></Skills>
     </div>
 
-    <div v-if="interns" class="interns">
+    <div v-if="works" class="interns">
       <h4>工作经历</h4>
       <hr>
       <List :source="works"></List>
-    </div>
-
-    <div v-if="interns" class="interns">
-      <h4>实习经历</h4>
-      <hr>
-      <List :source="interns"></List>
     </div>
 
     <div class="books">
