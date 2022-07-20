@@ -15,7 +15,7 @@
         个人主页: <strong><a :href="website" target="_blank">{{ website }}</a>（很酷的个人页）</strong>
       </div>
       <div class="links">
-        Github: <strong><a :href="github" target="_blank">{{ github }}</a>（500+ Followers）</strong>
+        Github: <strong><a :href="github" target="_blank">{{ github }}</a>（3.5k+ Stars）</strong>
       </div>
       <div class="links">
         知乎: <strong><a :href="zhihu" target="_blank">{{ zhihu }}</a>（1.6k+ 关注）</strong>

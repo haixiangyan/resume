@@ -38,9 +38,9 @@ export default {
       link: '',
       right: '2021年11月 - 至今',
       children: [
-        {left: '在腾讯智能平台负责智能客服系统开发，包含客服机器人平台以及 C 端，为智能平台大客户提供智能客服机器人能力，利用技术提升中小企业客服沟通效率'},
+        {left: '在腾讯智能平台负责智能客服系统开发，为中小企业客户提供智能客服机器人能力，利用技术提升企业客服沟通效率'},
         {left: '使用 *React* + *Redux* + *Ant Design* 技术栈开发智能机器人平台、质检平台、客服H5、小程序以及企微侧边栏应用'},
-        {left: '使用 *qiankun* 重构老平台，一方面能团队持续用新技术更新和重构，一方面还能保证团队可以随时接入新需求，最终实现项目增量更新'},
+        {left: '使用 *qiankun* 重构老平台，一方面团队能持续用新技术更新和重构，一方面保证团队随时可以接入新需求，实现项目增量更新'},
         {left: '使用 *qiankun* 对接和融合多方平台，能够让单一客服机器人平台接入数智人平台、新行业平台，大大增强老项目的可扩展能力'},
         {left: '帮助项目构建一条完备的流水线，实现多环境发布、环境隔离、项目回滚、质量红线和代码质量告警，同时接入页面告警以及埋点上报，从而加强项目工程化建设'},
       ]
@@ -52,8 +52,9 @@ export default {
       children: [
         {left: '在腾讯开心鼠部门负责微信社群运营系统开发，包含桌面PC端以及企业微信侧边栏应用，服务于 5000+ 运营老师，利用技术降低人力成本和提高运营效率'},
         {left: '使用 *React* + *Redux* + *Ant Design* 技术栈开发企业微信侧边栏和业务管理后台，并参与前端中台开发，使用 *Nest.js* 开发企微转发服务以及前端所需公共服务'},
-        {left: '根据业务需要封装一套侧边栏开发 SDK 工具以及上手模板，并输出一套侧边栏的开发指南，以方便腾讯智能平台和企鹅辅导部门上手和接入'},
+        {left: '根据业务需要封装一套侧边栏开发 SDK 工具以及上手模板，并输出《侧边栏开发指南》，方便其它部门上手和接入'},
         {left: '调研并深入了解 *single-spa* 和 *qiankun* 微前端框架，在企微侧边栏落地微前端技术，利用 *qiankun* 管理多个应用'},
+        {left: '在前端处设置缓存层，通过并行 *Promise*，以及 *Suspense + Lazy Component* 的方法优化网页加载速度'},
       ]
     },
     {
@@ -61,7 +62,8 @@ export default {
       link: '',
       right: '2019年06月',
       children: [
-        {left: '负责开发 LAANC（Low-Altitude Authorization and Notification）系统，使用 *Vue.js* + *Vuex* + *Vue Router* 编写'},
+        {left: '负责开发 LAANC（Low-Altitude Authorization and Notification）无人机空中飞行范围控制系统，使用 *Vue.js* + *Vuex* + *Vue Router* 编写开发'},
+        {left: '使用开源地图库 *MapBox*，并在业务场景中优化开源库中的圆型区域选取问题'}
       ]
     },
     {
@@ -69,7 +71,7 @@ export default {
       link: '',
       right: '2019年04月',
       children: [
-        {left: '使用 *React.js* + *Redux* + *Ant Design* 单独开发一套 OJ（Online Judge）系统'},
+        {left: '使用 *React.js* + *Redux* + *Ant Design* 单独开发一套 OJ（Online Judge）系统，负责网页搭建以及管理页面开发'},
       ]
     },
 
